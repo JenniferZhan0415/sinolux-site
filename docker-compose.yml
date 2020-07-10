@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: sh -c "gatsby develop -H 0.0.0.0"
+    ports:
+      - '9000:9000'
+    working_dir: /var/www/sinolux-site
