@@ -10,9 +10,30 @@ const Background = () => {
     // query background image
     const data = useStaticQuery(graphql`
         query {
-            backgroundImage: file(relativePath: { eq: "home/home.jpg" }) {
+            lg: file(relativePath: { eq: "home/retro/lg.png" }) {
                 childImageSharp {
-                    fluid(quality: 90, maxWidth: 1920) {
+                    fluid(quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            med: file(relativePath: { eq: "home/retro/med.png" }) {
+                childImageSharp {
+                    fluid(quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            sm: file(relativePath: { eq: "home/retro/sm.png" }) {
+                childImageSharp {
+                    fluid(quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            mob: file(relativePath: { eq: "home/retro/mobile.png" }) {
+                childImageSharp {
+                    fluid(quality: 100) {
                         ...GatsbyImageSharpFluid_withWebp
                     }
                 }
@@ -20,9 +41,23 @@ const Background = () => {
         }
     `)
     
-    const imageData = data.backgroundImage.childImageSharp.fluid
+    const sources = [
+        data.mob.childImageSharp.fluid,
+        {
+            ...data.lg.childImageSharp.fluid,
+            media: `(min-width: 1250px)`
+        },
+        {
+            ...data.med.childImageSharp.fluid,
+            media: `(min-width: 850px)`
+        },
+        {
+            ...data.sm.childImageSharp.fluid,
+            media: `(min-width: 600px)`
+        }
+    ]
 
-    return <Img fluid={imageData}/>
+    return <Img fluid={sources}/>
 }
 
 const HomeRetro = () => {
