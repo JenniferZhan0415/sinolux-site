@@ -1,0 +1,55 @@
+/* Playfair */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+/* Playfair SC */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap");
+/* Cormorant */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+
+.en {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.en-header {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.zh {
+    font-family: source-han-serif-sc, serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.kaiti {
+    font-family: 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
+    font-style: normal;
+}
+
+.zh-header {
+    font-family: source-han-serif-sc, serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sm {
+    font-size: 30px;
+}
+
+.md {
+    font-size: 50px;
+}
+
+.lg {
+    font-size: 60px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}

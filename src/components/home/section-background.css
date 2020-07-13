@@ -1,0 +1,19 @@
+.section-bg {
+    height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10%;
+    padding-left: 27.5%;
+    padding-top: 18%;
+    overflow: hidden;
+    /* background-color: #c8ae7c; */
+    background-color: white;
+}
+
+.background-wrapper {
+    height: 100%;
+    overflow: hidden;
+}

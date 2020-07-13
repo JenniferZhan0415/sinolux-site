@@ -1,8 +1,14 @@
 version: '3'
 services:
-  web:
+  react-dev:
     build: .
-    command: sh -c "gatsby develop -H 0.0.0.0"
+    command: sh -c "yarn install && gatsby build && gatsby develop -H 0.0.0.0"
     ports:
-      - '9000:9000'
+      - '8000:8000'
+    working_dir: /var/www/sinolux-site
+    volumes:
+      - .:/var/www/sinolux-site:cached
+  react-prod:
+    build: .
+    command: sh -c "gatsby serve"
     working_dir: /var/www/sinolux-site
