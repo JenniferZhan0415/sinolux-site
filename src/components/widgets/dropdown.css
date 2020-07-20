@@ -1,0 +1,15 @@
+.dropdown {
+    display: flex;
+    z-index: 3;
+    overflow: visible;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-icon {
+    margin-left: 2px;
+    padding-top: 4px;
+}

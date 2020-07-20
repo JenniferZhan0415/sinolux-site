@@ -4,7 +4,7 @@ import "./section-content.css"
 
 const sectionContent = ({children}) => {
     return (
-        <div className="content-wrapper">
+        <div className={`content-wrapper fadein-fast`}>
             {children}
         </div>
     )

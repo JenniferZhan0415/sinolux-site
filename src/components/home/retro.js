@@ -73,7 +73,7 @@ const HomeRetro = () => {
                 <h1 className={`en-header lg`}>LOVE & BRUISES / A LOU YE RETROSPECTIVE</h1>
                 <h1>
                     <span className={`zh-header md`}>爱与伤 /</span>
-                    <span className={`kaiti lg`}>&nbsp; 娄烨 &nbsp;</span>
+                    <span className={`kaiti lg fadein-slow`}>&nbsp; 娄烨 &nbsp;</span>
                     <span className={`zh-header md`}>电影回顾展</span>
                 </h1>
             </SectionContent>
