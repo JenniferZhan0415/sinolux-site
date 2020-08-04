@@ -1,64 +1,9 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 
 import Section from "./section"
 import SectionBackground from "./section-background"
+import Background from "./retro-background"
 import SectionContent from "./section-content"
-
-const Background = () => {
-    // query background image
-    const data = useStaticQuery(graphql`
-        query {
-            lg: file(relativePath: { eq: "home/retro/lg.png" }) {
-                childImageSharp {
-                    fluid(quality: 100) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            med: file(relativePath: { eq: "home/retro/med.png" }) {
-                childImageSharp {
-                    fluid(quality: 100) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            sm: file(relativePath: { eq: "home/retro/sm.png" }) {
-                childImageSharp {
-                    fluid(quality: 100) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            mob: file(relativePath: { eq: "home/retro/mobile.png" }) {
-                childImageSharp {
-                    fluid(quality: 100) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-        }
-    `)
-    
-    const sources = [
-        data.mob.childImageSharp.fluid,
-        {
-            ...data.lg.childImageSharp.fluid,
-            media: `(min-width: 1250px)`
-        },
-        {
-            ...data.med.childImageSharp.fluid,
-            media: `(min-width: 850px)`
-        },
-        {
-            ...data.sm.childImageSharp.fluid,
-            media: `(min-width: 600px)`
-        }
-    ]
-
-    return <Img fluid={sources}/>
-}
 
 const HomeRetro = () => {
     return (
