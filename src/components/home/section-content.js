@@ -2,10 +2,10 @@ import React from "react"
 
 import "./section-content.css"
 
-const sectionContent = ({children}) => {
+const sectionContent = (props) => {
     return (
-        <div className={`content-wrapper fadein-fast`}>
-            {children}
+        <div className={props.style + ' content-wrapper'}>
+            {props.children}
         </div>
     )
 }

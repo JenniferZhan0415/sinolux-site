@@ -54,17 +54,18 @@ class Dropdown extends Component {
         let list;
         
         if (this.state.isOpen) {
-            list = [
+            list =
+            <div className="menu fadein-fast">
                 <Link to="/" style={linkStyles}>
                     {this.props.options[0]}
-                </Link>,
-                <Link to="/" className="fadein-fast" style={linkStyles}>
+                </Link>
+                <Link to="/" style={linkStyles}>
                     {this.props.options[1]}
-                </Link>,
-                <Link to="/" className="fadein-fast" style={linkStyles}>
+                </Link>
+                <Link to="/" style={linkStyles}>
                     {this.props.options[2]}
                 </Link>
-            ]
+            </div>
         } else {
             list = 
             <Link to="/" style={linkStyles}>

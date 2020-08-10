@@ -4,6 +4,14 @@
     overflow: visible;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 5vw;
+    text-align: center;
+}
+
 .dropdown-menu {
     display: flex;
     flex-direction: column;

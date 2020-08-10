@@ -1,0 +1,37 @@
+.contentWrapper {
+    padding: 15%;
+    padding-top: 15%;
+}
+
+@media( min-width: 600px ) {
+    .contentWrapper {
+        padding: 9vh 15vw 7vh 15vw;
+    }
+
+    .button {
+        position: absolute;
+        right: 15vw;
+        bottom: 13vh;
+    }
+}
+
+.sectionBg {
+    padding: 35vh 20vw 35vh 30vw;
+}
+
+@media only screen and (min-width: 850px) {
+    .sectionBg {
+        padding: 35vh 15vw 35vh 15vw;
+    }
+}
+
+.description {
+    font-size: 1.5vh;
+    position: absolute;
+    bottom: 24vh;
+}
+
+.description p {
+    margin-top: -2%;
+    margin-bottom: 0;
+}
