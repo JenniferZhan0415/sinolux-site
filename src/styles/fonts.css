@@ -5,7 +5,12 @@
 /* Cormorant */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 
-.en {
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", sans-serif;
+    font-weight: 500;
+}
+
+/* .en {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +37,7 @@
     font-family: source-han-serif-sc, serif;
     font-style: normal;
     font-weight: 500;
-}
+} */
 
 .black {
     color: black;
@@ -42,7 +47,7 @@
     color: white;
 }
 
-.sm {
+/* .sm {
     font-size: 30px;
 }
 
@@ -127,4 +132,4 @@
         font-size: 50px;
         line-height: 50px;
     }
-}
+} */
