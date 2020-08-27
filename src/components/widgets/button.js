@@ -2,17 +2,15 @@ import React from "react"
 import {Link} from "gatsby"
 
 const linkStyle = {
-	// textDecoration: "none",
-	// color: "black"
+	textDecoration: "none",
+	color: "black"
 }
 
-const Button = ({children}) => {
+const Button = (props) => {
     return (
-        <div>
-            <Link to="/" style={linkStyle}>
-                {children}
-            </Link>
-        </div>
+        <Link to={props.to} style={linkStyle}>
+            {props.children}
+        </Link>
     )
 }
 

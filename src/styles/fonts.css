@@ -31,19 +31,7 @@
 .zh-header {
     font-family: source-han-serif-sc, serif;
     font-style: normal;
-    font-weight: 700;
-}
-
-.sm {
-    font-size: 30px;
-}
-
-.md {
-    font-size: 5vh;
-}
-
-.lg {
-    font-size: 8vh;
+    font-weight: 500;
 }
 
 .black {
@@ -52,4 +40,91 @@
 
 .white {
     color: white;
+}
+
+.sm {
+    font-size: 30px;
+}
+
+.md {
+    font-size: 4.5vw;
+    line-height: 3vh;
+}
+
+.lg {
+    font-size: 6vw;
+    line-height: 4vh;
+}
+
+.xlg {
+    font-size: 9vw;
+    line-height: 5.5vh;
+}
+
+@media (min-width: 600px) {
+    .md {
+        font-size: 3vw;
+        line-height: 4vh;
+    }
+    
+    .lg {
+        font-size: 5vw;
+        line-height: 4.5vh;
+    }
+    
+    .xlg {
+        font-size: 7.5vw;
+        line-height: 6.5vh;
+    }
+}
+
+@media (min-width: 800px) {
+    .md {
+        font-size: 2.5vw;
+        line-height: 3.5vh;
+    }
+    
+    .lg {
+        font-size: 4vw;
+        line-height: 5vh;
+    }
+    
+    .xlg {
+        font-size: 6vw;
+        line-height: 7vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .md {
+        font-size: 1.5vw;
+        line-height: 15px;
+    }
+    
+    .lg {
+        font-size:2.5vw;
+        line-height: 30px;
+    }
+    
+    .xlg {
+        font-size: 4vw;
+        line-height: 7vh;
+    }
+}
+
+@media (min-width: 1400px) {
+    .md {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    
+    .lg {
+        font-size: 38px;
+        line-height: 35px;
+    }
+    
+    .xlg {
+        font-size: 50px;
+        line-height: 50px;
+    }
 }

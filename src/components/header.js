@@ -57,9 +57,9 @@ const Header = ({ siteTitle }) => (
 				</div>
 			</div>
 
-			<div className="menu">
-				{/* <Menu/> */}
-			</div>
+			{/* <div className="menu">
+				<Menu/>
+			</div> */}
 
 		</div>
 	</header>

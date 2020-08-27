@@ -1,0 +1,20 @@
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #c8ae7c; */
+}
+
+@media only screen and (min-width: 850px) {
+    .section-bg {
+        padding: 20% 25% 20% 25%;
+    }
+}
+
+.background-wrapper {
+    height: 100%;
+    overflow: hidden;
+}

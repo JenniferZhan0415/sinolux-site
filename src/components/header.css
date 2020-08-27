@@ -45,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.nav-bar a:hover {
     border-bottom: 1px #c8ae7c solid;
     color: #c8ae7c;
 }

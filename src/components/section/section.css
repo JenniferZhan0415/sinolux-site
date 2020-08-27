@@ -1,0 +1,10 @@
+.section {
+    position: relative;
+    padding-top: 7vh;
+    height: 100%;
+    border-bottom: 1px black solid;
+}
+
+a:hover {
+    border-bottom: 1px black solid;
+}

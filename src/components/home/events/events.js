@@ -1,8 +1,8 @@
 import React from "react"
 
-import Section from "../section"
-import SectionContent from "../section-content"
-import SectionBackground from "../section-background"
+import Section from "../../section/section"
+import SectionContent from "../../section/section-content"
+import SectionBackground from "../../section/section-background"
 import Background from "./background"
 import Button from "../../widgets/button"
 
@@ -16,20 +16,20 @@ const HomeEvents = () => {
             </SectionBackground>
 
             <SectionContent style={styles.contentWrapper}>
-                <h2 className={`en md`}>YEAR-ROUND COMMUNITY EVENTS</h2>
-                <h2 className={`zh md`}>全年观影团活动</h2>
+                <p className={`en lg`}>YEAR-ROUND COMMUNITY EVENTS</p>
+                <p className={`zh lg`}>全年观影团活动</p>
 
                 <div className={styles.description}>
-                    <p><strong>Amour 爱 (2012)</strong></p>
+                    <p><strong>Amour 爱（2012）</strong></p>
                     <p><i>Michael Haneke 迈克尔・哈内克</i></p>
                     <p><i>France 法国</i></p>
                 </div>
 
-                <h3 className={`en button ` + styles.button}>
-                    <Button>
+                <p className={`en md button ` + styles.button}>
+                    <Button to="/">
                         LEARN MORE &rarr;
                     </Button>
-                </h3>
+                </p>
             </SectionContent>
         </Section>
     )

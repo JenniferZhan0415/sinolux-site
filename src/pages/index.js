@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 
 import HomeRetro from "../components/home/retro/retro"
 import HomeEvents from "../components/home/events/events"
+import HomeReviews from "../components/home/reviews/reviews"
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,8 @@ const IndexPage = () => (
     <HomeRetro/>
     {/* <hr/> */}
     <HomeEvents/>
+    {/* <hr/> */}
+    <HomeReviews/>
   </Layout>
 )
 

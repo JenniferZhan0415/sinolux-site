@@ -1,37 +1,54 @@
 .contentWrapper {
-    padding: 15%;
-    padding-top: 15%;
-}
-
-@media( min-width: 600px ) {
-    .contentWrapper {
-        padding: 9vh 15vw 7vh 15vw;
-    }
-
-    .button {
-        position: absolute;
-        right: 15vw;
-        bottom: 13vh;
-    }
+    padding: 9vh 10vw 7vh 10vw;
 }
 
 .sectionBg {
-    padding: 35vh 20vw 35vh 30vw;
+    padding: 40vh 10vw 20vh 10vw;
 }
 
-@media only screen and (min-width: 850px) {
-    .sectionBg {
-        padding: 35vh 15vw 35vh 15vw;
-    }
+.button {
+    position: absolute;
+    right: 10vw;
+    top: 28vh;
 }
 
 .description {
     font-size: 1.5vh;
     position: absolute;
-    bottom: 24vh;
+    bottom: 10vh;
 }
 
 .description p {
     margin-top: -2%;
     margin-bottom: 0;
+}
+
+@media (min-width: 800px) {
+    .sectionBg {
+        padding: 38vh 15vw 25vh 15vw;
+    }
+
+    .contentWrapper {
+        padding: 9vh 15vw 7vh 15vw;
+    }
+
+    .button {
+        top: unset;
+        right: 15vw;
+        bottom: 13vh;
+    }
+
+    .description {
+        bottom: 14vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .sectionBg {
+        padding: 35vh 15vw 35vh 15vw;
+    }
+
+    .description {
+        bottom: 24vh;
+    }
 }
