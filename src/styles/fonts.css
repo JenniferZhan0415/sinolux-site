@@ -8,36 +8,30 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", sans-serif;
     font-weight: 500;
+    font-size: 24pt;
+    line-height: 35px;
 }
 
-/* .en {
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 400;
+@media (min-width: 1000px) {
+    .md {
+        font-size: 1.5vw;
+        line-height: 15px;
+    }
+    
+    .lg {
+        font-size: 28pt;
+        line-height: 35px;
+    }
+    
+    .xlg {
+        font-size: 4vw;
+        line-height: 7vh;
+    }
 }
 
-.en-header {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: normal;
-    font-weight: 600;
+.italic {
+    font-style: italic;
 }
-
-.zh {
-    font-family: source-han-serif-sc, serif;
-    font-style: normal;
-    font-weight: 200;
-}
-
-.kaiti {
-    font-family: 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
-    font-style: normal;
-}
-
-.zh-header {
-    font-family: source-han-serif-sc, serif;
-    font-style: normal;
-    font-weight: 500;
-} */
 
 .black {
     color: black;
@@ -96,23 +90,6 @@ body {
     
     .xlg {
         font-size: 6vw;
-        line-height: 7vh;
-    }
-}
-
-@media (min-width: 1000px) {
-    .md {
-        font-size: 1.5vw;
-        line-height: 15px;
-    }
-    
-    .lg {
-        font-size:2.5vw;
-        line-height: 30px;
-    }
-    
-    .xlg {
-        font-size: 4vw;
         line-height: 7vh;
     }
 }

@@ -3,7 +3,8 @@ import {Link} from "gatsby"
 
 const linkStyle = {
 	textDecoration: "none",
-	color: "black"
+    color: "black",
+    display: "inline-block"
 }
 
 const Button = (props) => {

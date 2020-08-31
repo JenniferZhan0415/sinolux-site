@@ -1,0 +1,13 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    z-index: 4;
+}
