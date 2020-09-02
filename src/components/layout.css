@@ -187,7 +187,7 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 * {
   box-sizing: inherit;
@@ -630,7 +630,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow-y: auto;
 }
