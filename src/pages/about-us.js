@@ -7,7 +7,7 @@ import About from "../components/about/about"
 const AboutPage = () => (
   <Layout>
     <SEO
-      title="About Sinolux"
+      title="About"
       description="Sinolux About Us"
       lang="en"
     />

@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./section.css"
+import "./section.scss"
 
 const Section = (props) => {
     let style

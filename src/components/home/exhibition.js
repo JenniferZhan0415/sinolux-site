@@ -12,7 +12,7 @@ const Exhibition = () => {
         <Section>
             <div style={UpperStyle}>
                 <BWI>
-                    <Link to="/">2017</Link>&nbsp;
+                    <Link to="/2017">2017</Link>&nbsp;
                     <BackgroundImg style={PolygonStyles[0]}/>
                 </BWI>
                 <BWI>
