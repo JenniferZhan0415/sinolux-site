@@ -9,10 +9,13 @@ const Section = (props) => {
             height: props.height
         }
     else
-        style = undefined
+        style = props.style
+    
+    let className = "section ";
+    className += Array.isArray(props.className) ? props.className.join(" ") : props.className;
 
     return (
-        <div className="section" style={style}>
+        <div className={className} style={style}>
             {props.children}
         </div>
     )

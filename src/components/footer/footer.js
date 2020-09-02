@@ -9,9 +9,9 @@ import "./footer.css"
 const polygonStyles = [
     {
         position: "fixed",
-        bottom: "20%",
+        bottom: "15%",
         left: "5%",
-        width: "10%",
+        width: "5%",
         height: "auto",
         transform: "rotate(25deg)"
     },
@@ -19,9 +19,9 @@ const polygonStyles = [
         position: "fixed",
         bottom: "5%",
         left: "5%",
-        width: "10%",
+        width: "7%",
         height: "auto",
-        transform: "rotate(15deg)"
+        transform: "rotate(150deg)"
     },
 ]
 
@@ -36,7 +36,7 @@ const Footer = () => {
                 <br/>
                 <br/>
                 <BWI>
-                    <Link to="about-us">ABOUT US<br/>关于我们</Link>
+                    <Link to="/about-us">ABOUT US<br/>关于我们</Link>
                     <BackgroundImg style={polygonStyles[1]}/>
                 </BWI>
             </div>

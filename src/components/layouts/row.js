@@ -4,7 +4,7 @@ import "./row.css"
 
 const Row = (props) => {
     let styles = "row";
-    const inputStyles = Array.isArray(props.style) ? props.style.join(" ") : props.style;
+    const inputStyles = Array.isArray(props.className) ? props.className.join(" ") : props.className;
     if (inputStyles) styles += " " + inputStyles;
 
     return (

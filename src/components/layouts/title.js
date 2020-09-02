@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import "./title.css"
+import "./title.scss"
 
 const Title = (props) => {
     return (
@@ -15,10 +15,8 @@ const Title = (props) => {
 
 const Subtitle = (props) => {
     return (
-        <div className="title">
-            <Link to="/">
-                {props.children}
-            </Link>
+        <div className="subtitle">
+            {props.children}
 		</div>
     )
 }

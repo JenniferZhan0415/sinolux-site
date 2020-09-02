@@ -26,7 +26,7 @@ const Exhibition = () => {
             </div>
             <div style={LowerStyle}>
                 <BWI>
-                    <Link to="about-us">SINO<span className="italic">LUX</span> FILM<br/>华光电影<br/></Link>
+                    <Link to="/about-us">SINO<span className="italic">LUX</span> FILM<br/>华光电影<br/></Link>
                     <BackgroundImg style={PolygonStyles[3]}/>
                 </BWI>
             </div>

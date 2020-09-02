@@ -1,0 +1,38 @@
+@mixin title-base {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    z-index: 3;
+}
+
+@mixin link-base {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    z-index: 4;
+    border-bottom: 1px solid transparent;
+}
+
+.title {
+    @include title-base;
+    font-size: 48pt;
+}
+
+.title a {
+    @include link-base;
+}
+
+.subtitle {
+    @include title-base;
+    font-size: 34pt;
+
+    a {
+        @include link-base;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}

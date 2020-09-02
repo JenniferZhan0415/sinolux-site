@@ -1,0 +1,30 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about {
+    a {
+        position: relative;
+        display: inline-block;
+        color: black;
+
+        z-index: 4;
+    }
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 30px 25px 0px 0px;
+    z-index: 4;
+
+    width: 400px;
+    height: 100px;
+
+    display: inline-block;
+    text-align: right;
+
+    background-color: rgba(255, 255, 255, 0);
+}

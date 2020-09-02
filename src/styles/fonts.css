@@ -8,8 +8,52 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", sans-serif;
     font-weight: 500;
-    font-size: 24pt;
+    font-size: 20pt;
     line-height: 35px;
+}
+
+.en-link {
+    text-decoration: underline;
+}
+
+.en-link:hover {
+    text-decoration: none;
+}
+
+.zh-link {
+    text-decoration: none;
+}
+
+.zh-link:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.zh-link:hover:after {
+    display: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
 }
 
 @media (min-width: 1000px) {
@@ -27,18 +71,6 @@ body {
         font-size: 4vw;
         line-height: 7vh;
     }
-}
-
-.italic {
-    font-style: italic;
-}
-
-.black {
-    color: black;
-}
-
-.white {
-    color: white;
 }
 
 /* .sm {
