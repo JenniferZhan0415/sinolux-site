@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
+import {Link} from "gatsby"
 
 import Title from "../layouts/title"
 
@@ -8,7 +9,9 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
 	<header className="header">
 		<Title>
-			SINO<span className="italic">LUX</span>
+			<Link to="/">
+				SINO<span className="italic">LUX</span>
+			</Link>
 		</Title>
 	</header>
 )

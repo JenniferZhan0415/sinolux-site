@@ -3,12 +3,8 @@ import React from "react"
 import "./col.css"
 
 const Col = (props) => {
-    let styles = "col";
-    const inputStyles = Array.isArray(props.style) ? props.style.join(" ") : props.style;
-    if (inputStyles) styles += " " + inputStyles;
-
     return (
-        <div className={styles}>
+        <div className={"col " + props.className}>
             {props.children}
         </div>
     )

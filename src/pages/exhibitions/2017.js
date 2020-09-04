@@ -1,8 +1,8 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import E2017 from "../components/exhibitions/2017/e2017"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import E2017 from "../../components/exhibitions/2017/e2017"
 
 const Exhibition2017 = () => (
   <Layout>

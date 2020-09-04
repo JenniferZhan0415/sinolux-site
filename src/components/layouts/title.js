@@ -6,16 +6,22 @@ import "./title.scss"
 const Title = (props) => {
     return (
         <div className="title">
-            <Link to="/">
                 {props.children}
-            </Link>
 		</div>
     )
 }
 
 const Subtitle = (props) => {
     return (
-        <div className="subtitle">
+        <div className={"subtitle " + props.className}>
+            {props.children}
+		</div>
+    )
+}
+
+const Subsubtitle = (props) => {
+    return (
+        <div className={"subsubtitle " + props.className}>
             {props.children}
 		</div>
     )
@@ -23,5 +29,6 @@ const Subtitle = (props) => {
 
 export default Title
 export {
-    Subtitle
+    Subtitle,
+    Subsubtitle
 }

@@ -17,6 +17,7 @@
 .title {
     @include title-base;
     font-size: 48pt;
+    line-height: 40pt;
 }
 
 .title a {
@@ -26,6 +27,7 @@
 .subtitle {
     @include title-base;
     font-size: 34pt;
+    line-height: 32pt;
 
     a {
         @include link-base;
@@ -35,4 +37,9 @@
     a:hover {
         text-decoration: none;
     }
+}
+
+.subsubtitle {
+    @include title-base();
+    font-size: 28pt;
 }

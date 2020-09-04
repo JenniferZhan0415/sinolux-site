@@ -5,13 +5,16 @@ const Nav = (props) => {
         position: "fixed",
         top: "150px",
         left: "0px",
-        display: "flex",
-        width: "250px",
-        height: "50%"
+        paddingLeft: "30px",
+
+        width: "350px",
+        height: "60%",
+
+        zIndex: "4"
     }
 
     return (
-        <div style={style}>
+        <div style={style} className={props.className}>
             {props.children}
         </div>
     )

@@ -40,6 +40,38 @@ body {
     display: none;
 }
 
+.link-en {
+    text-decoration: none;
+}
+
+.link-en:hover {
+    text-decoration: underline;
+}
+
+.link-zh {
+    text-decoration: none;
+}
+
+.link-zh:hover:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
 .italic {
     font-style: italic;
 }

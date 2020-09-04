@@ -2,14 +2,30 @@
     position: fixed;
     top: 0;
     right: 0;
-    margin: 30px 25px 0px 0px;
+    padding: 20px 25px 0px 0px;
     z-index: 4;
 
-    width: 400px;
-    height: 100px;
+    width: 150px;
 
     display: inline-block;
     text-align: right;
 
     background-color: rgba(255, 255, 255, 0);
+}
+
+.square {
+    position: relative;
+    left: 77px;
+    margin-top: 3px;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+}
+
+.nav {
+    line-height: 33px;
+    // p {
+    //     margin-bottom: 15px;
+    //     line-height: 27px;
+    // }
 }
