@@ -16,8 +16,8 @@ const polygonStyle = {
     position: "fixed",
     width: "20%",
     top: "45%",
-    left: "50%",
-    transform: "translate(-50%,-60%)",
+    left: "10%",
+    transform: "translate(-50%,-60%) rotate(90deg)",
 }
 
 class Background extends Component {

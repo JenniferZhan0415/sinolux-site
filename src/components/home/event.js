@@ -12,13 +12,13 @@ const Event = () => {
         <Section>
             <div style={UpperStyle}>
                 <BWI>
-                    <Link to="/">YEAR<br/>ROUND<br/>COMMUNITY<br/></Link>
+                    <Link to="/events/">YEAR<br/>ROUND<br/>COMMUNITY<br/></Link>
                     <BackgroundImg style={PolygonStyles[4]}/>
                 </BWI>
             </div>
             <div style={LowerStyle}>
                 <BWI>
-                    <Link to="/">EVENTS<br/>全年观影团活动<br/></Link>
+                    <Link to="/events/">EVENTS<br/>全年观影团活动<br/></Link>
                     <BackgroundImg style={PolygonStyles[3]}/>
                 </BWI>
             </div>

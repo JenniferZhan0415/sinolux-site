@@ -18,6 +18,8 @@
     @include title-base;
     font-size: 48pt;
     line-height: 40pt;
+
+    z-index: 5;
 }
 
 .title a {
@@ -28,6 +30,8 @@
     @include title-base;
     font-size: 34pt;
     line-height: 32pt;
+
+    // background: rgba($color: white, $alpha: 0.2);
 
     a {
         @include link-base;
@@ -42,4 +46,28 @@
 .subsubtitle {
     @include title-base();
     font-size: 28pt;
+}
+
+.pageTitle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 25px 25px 0px 0px;
+    z-index: 5;
+
+    width: 400px;
+    height: 100px;
+
+    display: inline-block;
+    text-align: right;
+
+    // background-color: rgba(255, 255, 255, 0);
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }

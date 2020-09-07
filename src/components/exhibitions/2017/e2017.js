@@ -5,7 +5,7 @@ import {Subtitle} from "../../layouts/title"
 import Section from "../../layouts/section"
 import Nav from "../../layouts/navigation"
 import Content from "./content"
-import Background from "../background"
+// import Background from "../background"
 
 import styles from "./e2017.module.scss"
 

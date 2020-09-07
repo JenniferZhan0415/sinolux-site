@@ -1,5 +1,4 @@
 import React from "react"
-import {Link} from "gatsby"
 
 import "./title.scss"
 
@@ -27,8 +26,20 @@ const Subsubtitle = (props) => {
     )
 }
 
+const PageTitle = (props) => {
+    let className = "pageTitle"
+    if (props.className) className += " " + props.className
+
+    return (
+        <div className={className}>
+            {props.children}
+        </div>
+    )
+}
+
 export default Title
 export {
     Subtitle,
-    Subsubtitle
+    Subsubtitle,
+    PageTitle
 }
