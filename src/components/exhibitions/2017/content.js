@@ -34,8 +34,32 @@ const Content = () => {
                 </Row>
                 <div>
                     {about.en}
-                    <p>WHEN: 10/7, 10/14<br/>WHERE: Innis Town Hall, 2 Sussex Ave</p>
-                    {/* <p>时间: 10/7, 10/14<br/>地点: Innis Town Hall, 2 Sussex Ave</p> */}
+                    <div className={styles.eventDetail}>
+                        <p className={styles.when}>TIME: 2017/10/7, 2017/10/14 - LOCATION: Innis Town Hall, 2 Sussex Ave</p><br/><br/>
+                        <p className={styles.where}>LOCATION: Innis Town Hall, 2 Sussex Ave - TIME: 2017/10/7, 2017/10/14</p>
+                    </div>
+                </div>
+
+                <div className={styles.nav}>
+                    <p>SCREENINGS<br/>展映片单</p>
+                    <div className={styles.screenings}>
+                        <p>
+                            <a href="#cross-current" className="link-en">CROSSCURRENT</a><br/>
+                            <a href="#cross-current" className="link-zh">长江图</a>
+                        </p>
+                        <p>
+                            <a href="#blue-gate" className="link-en">BLUE GATE CROSSING</a><br/>
+                            <a href="#blue-gate" className="link-zh">蓝色大门</a>
+                        </p>
+                        <p>
+                            <a href="#free-easy" className="link-en">FREE AND EASY</a><br/>
+                            <a href="#free-easy" className="link-zh">轻松 + 愉快</a>
+                        </p>
+                        <p>
+                            <a href="#summer" className="link-en">THE SUMMER IS GONE</a><br/>
+                            <a href="#summer" className="link-zh">八月</a>
+                        </p>
+                    </div>
                 </div>
             </div>
 

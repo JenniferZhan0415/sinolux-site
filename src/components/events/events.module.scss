@@ -15,9 +15,9 @@
         text-decoration: none;
     }
 
-    // a:hover {
-    //     text-decoration: underline;
-    // }
+    a:hover {
+        border-bottom: 2px solid black;
+    }
 }
 
 .nav {
@@ -27,12 +27,12 @@
 .cover0 {
     position: relative;
     width: 35%;
-    left: -50px;
+    left: 0;
 }
 
 .cover1 {
     position: absolute;
-    top: -150px;
+    top: -90%;
     left: 60%;
     width: 40%;
 }
@@ -52,7 +52,7 @@
 
 .cover4 {
     position: absolute;
-    top: 20%;
+    top: -20%;
     left: 50%;
     width: 50%;
 }

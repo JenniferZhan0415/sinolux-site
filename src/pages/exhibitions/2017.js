@@ -8,7 +8,7 @@ const Exhibition2017 = () => (
   <Layout>
     <SEO
       title="2017"
-      description="Sinolux 2017"
+      description="Sinolux Exhibition 2017"
       lang="en"
     />
 

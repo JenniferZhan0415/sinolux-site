@@ -3,7 +3,7 @@ import React from "react"
 import Section from "../layouts/section"
 import Row from "../layouts/row"
 import Nav from "../layouts/navigation"
-import {Subtitle, Subsubtitle, PageTitle} from "../layouts/title"
+import Footer from "../footer/footer"
 
 import Cover from "../layouts/cover"
 import {covers} from "./articals/covers"
@@ -23,10 +23,6 @@ const Events = () => {
                 <p><a href="#2017" className="link-en">2017</a></p>
             </Nav>
 
-            <PageTitle>
-                <Subtitle><a href="#2020">YEAR-ROUND COMMUNITY EVENTS</a></Subtitle>
-            </PageTitle>
-
             <div className={styles.rows}>
                 <Row className={styles.row} id="2019">
                     {/* <Cover className={styles.cover0} to="/events/tiff-picture-palace/"> */}
@@ -39,7 +35,7 @@ const Events = () => {
                 <Row className={styles.row}>
                     <Cover className={styles.cover1} external="https://mp.weixin.qq.com/s/I3RhrqFQEWa7PYRJD_rgWg">
                         {covers["190418"]}
-                        {"《地球最后的夜晚》首映之夜"}
+                        <span>《地球最后的夜晚》首映之夜</span>
                         {"2019/04/18"}
                     </Cover>
 
@@ -69,6 +65,16 @@ const Events = () => {
             </div>
 
             {/* <Background/> */}
+
+            <Footer>
+                <a href="#2017">
+                    YEAR-ROUND<br/>
+                    COMMUNITY<br/>
+                    EVENTS<br/>
+                    全年观影团活动<br/>
+                    <div className={styles.square}/>
+                </a>
+            </Footer>
         </Section>
     )
 }

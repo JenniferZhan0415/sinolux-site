@@ -1,10 +1,10 @@
 import React from "react"
-import {Link} from "gatsby"
 
 import BWI from "../widgets/buttons/buttonWithImg"
 import BackgroundImg from "../home/background/brackgroundImage"
+import {Subsubtitle} from "../layouts/title"
 
-import "./footer.css"
+import styles from "./footer.module.scss"
 
 const polygonStyles = [
     {
@@ -25,21 +25,19 @@ const polygonStyles = [
     },
 ]
 
-const Footer = () => {
+const Footer = ({children}) => {
     return (
-        <div className="nav-bar">
-            <div>
-                <BWI>
-                    <a href="https://tiff.net/">TICKETS<br/>票</a>
-                    <BackgroundImg style={polygonStyles[0]}/>
-                </BWI>
-                <br/>
-                <br/>
-                <BWI>
-                    <Link to="/about-us">ABOUT US<br/>关于我们</Link>
-                    <BackgroundImg style={polygonStyles[1]}/>
-                </BWI>
-            </div>
+        <div className={styles.navBar}>
+            {React.Children.map(children, (child, i) => {
+                return (
+                    <p>
+                        <BWI>
+                            {child}
+                            <BackgroundImg style={polygonStyles[i]}/>
+                        </BWI>
+                    </p>
+                )
+            })}
 		</div>
     )
 }

@@ -2,27 +2,40 @@ import React from "react"
 import {Link} from "gatsby"
 
 import BackgroundImg from "./background/brackgroundImage"
-import Section from "../layouts/section"
 import BWI from "../widgets/buttons/buttonWithImg"
 
 import {PolygonStyles, UpperStyle, LowerStyle} from "./polygonStyles"
 
+const interviewStyle = {
+    position: "absolute",
+    top: "60%",
+    left: "32%",
+    transform: "rotate(20deg)"
+}
+
+const reviewStyle = {
+    position: "absolute",
+    top: "70%",
+    left: "29%",
+    transform: "rotate(35deg)"
+}
+
 const Interview = () => {
     return (
-        <Section>
-            <div style={UpperStyle}>
+        <div>
+            <div style={interviewStyle}>
                 <BWI>
-                    <Link to="/">INTERVIEW<br/>电影报道<br/></Link>
+                    <Link to="/interview-review">INTERVIEW 电影报道</Link>
                     <BackgroundImg style={PolygonStyles[4]}/>
                 </BWI>
             </div>
-            <div style={LowerStyle}>
+            <div style={reviewStyle}>
                 <BWI>
-                    <Link to="/">REVIEW<br/>电影评论<br/></Link>
+                    <Link to="/interview-review">REVIEW 电影评论</Link>
                     <BackgroundImg style={PolygonStyles[5]}/>
                 </BWI>
             </div>
-        </Section>
+        </div>
     )
 }
 

@@ -1,0 +1,75 @@
+.eventDetail {
+    margin-top: 10%;
+}
+
+.when {
+    transform: rotate(-5deg);
+    // color: orange;
+}
+
+.where {
+    transform: rotate(5deg);
+    // color: blue;
+}
+
+.nav {
+    margin-top: 10%;
+}
+
+.screenings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rows {
+    position: relative;
+    top: 150px;
+    left: 25%;
+
+    width: 65%;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+}
+
+.col {
+    width: 70%;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.detail {
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin square($color) {
+    background-color: $color;
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.square1 {
+    @include square(darkblue);
+}
+
+.square2 {
+    @include square(lightskyblue);
+}
+
+.square3 {
+    @include square(lightblue);
+}
+
+.square4 {
+    @include square(lightsteelblue);
+}

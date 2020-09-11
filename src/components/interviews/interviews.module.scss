@@ -1,0 +1,58 @@
+.rows {
+    position: relative;
+    top: 20%;
+    left: 25%;
+
+    width: 70%;
+    height: 100%;
+}
+
+.row {
+    position: relative;
+    height: 40%;
+
+    a {
+        text-decoration: none;
+    }
+
+    // a:hover {
+    //     text-decoration: underline;
+    // }
+}
+
+.nav {
+    padding-top: 100px;
+}
+
+.cover0 {
+    position: relative;
+    width: 35%;
+    left: 0;
+}
+
+.cover1 {
+    position: absolute;
+    top: -90%;
+    left: 60%;
+    width: 40%;
+}
+
+.cover2 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 40%;
+}
+
+.cover3 {
+    position: absolute;
+    top: 170px;
+    width: 40%;
+}
+
+.cover4 {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    width: 50%;
+}

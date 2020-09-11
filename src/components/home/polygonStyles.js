@@ -1,8 +1,8 @@
 export const UpperStyle = {
     position: "absolute",
     display: "inline-block",
-    bottom: "60%",
-    left: "25%",
+    bottom: "65%",
+    left: "32%",
     zIndex: "3",
     transform: "rotate(-5deg)"
 }
@@ -10,10 +10,10 @@ export const UpperStyle = {
 export const LowerStyle = {
     position: "absolute",
     display: "inline-block",
-    top: "50%",
-    left: "25%",
+    bottom: "3%",
+    right: "2%",
     zIndex: "3",
-    transform: "rotate(5deg)"
+    transform: "rotate(0deg)"
 }
 
 export const PolygonStyles = [

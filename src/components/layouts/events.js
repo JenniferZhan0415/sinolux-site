@@ -1,13 +1,12 @@
 import React from "react"
 
-import Section from "./section"
 import {Subtitle, PageTitle} from "./title"
 
 import styles from "./events.scss"
 
 const EventTemplate = (props) => {
     return (
-        <Section>
+        <div>
             <PageTitle>
                 <Subtitle>{props.title}</Subtitle>
             </PageTitle>
@@ -15,7 +14,7 @@ const EventTemplate = (props) => {
             <div className={styles.wrapper}>
                 {props.children}
             </div>
-        </Section>
+        </div>
     )
 }
 

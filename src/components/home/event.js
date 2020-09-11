@@ -7,22 +7,38 @@ import BWI from "../widgets/buttons/buttonWithImg"
 
 import {PolygonStyles, UpperStyle, LowerStyle} from "./polygonStyles"
 
+const enStyle = {
+    position: "absolute",
+    top: "15%",
+    left: "30%",
+
+    transform: "rotate(-15deg)"
+}
+
+const zhStyle = {
+    position: "absolute",
+    top: "15%",
+    left: "55%",
+
+    transform: "rotate(-5deg)"
+}
+
 const Event = () => {
     return (
-        <Section>
-            <div style={UpperStyle}>
+        <div>
+            <div style={enStyle}>
                 <BWI>
-                    <Link to="/events/">YEAR<br/>ROUND<br/>COMMUNITY<br/></Link>
+                    <Link to="/events/">YEAR ROUND COMMUNITY EVENTS</Link>
                     <BackgroundImg style={PolygonStyles[4]}/>
                 </BWI>
             </div>
-            <div style={LowerStyle}>
+            <div style={zhStyle}>
                 <BWI>
-                    <Link to="/events/">EVENTS<br/>全年观影团活动<br/></Link>
+                    <Link to="/events/">全年观影团活动</Link>
                     <BackgroundImg style={PolygonStyles[3]}/>
                 </BWI>
             </div>
-        </Section>
+        </div>
     )
 }
 
