@@ -25,13 +25,13 @@ const Interview = () => {
         <div>
             <div style={interviewStyle}>
                 <BWI>
-                    <Link to="/interview-review">INTERVIEW 电影报道</Link>
+                    <Link to="/interview">INTERVIEW 电影报道</Link>
                     <BackgroundImg style={PolygonStyles[4]}/>
                 </BWI>
             </div>
             <div style={reviewStyle}>
                 <BWI>
-                    <Link to="/interview-review">REVIEW 电影评论</Link>
+                    <Link to="/review">REVIEW 电影评论</Link>
                     <BackgroundImg style={PolygonStyles[5]}/>
                 </BWI>
             </div>

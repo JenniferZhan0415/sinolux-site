@@ -5,13 +5,13 @@ import Nav from "../layouts/navigation"
 import Footer from "../footer/footer"
 import Row from "../layouts/row"
 
-import Articles from "./articles/table"
+import Articles from "./articals/table"
 import Background from "./background"
 
-import styles from "./interviews.module.scss"
+import styles from "./review.module.scss"
 
 
-const Interviews = () => {
+const Reviews = () => {
     return (
         <Section>
             <Nav className={styles.nav}>
@@ -33,14 +33,12 @@ const Interviews = () => {
 
             <Footer>
                 <a href="#2017">
-                    NEWS &<br/>
-                    INTERVIEWS<br/>
-                    电影报道<br/>
-                    <div className={styles.square}/>
+                    REVIEWS<br/>
+                    电影评论<br/>
                 </a>
             </Footer>
         </Section>
     )
 }
 
-export default Interviews
+export default Reviews
