@@ -4,7 +4,7 @@ import {Link} from "gatsby"
 import BackgroundImg from "./background/brackgroundImage"
 import BWI from "../widgets/buttons/buttonWithImg"
 
-import {PolygonStyles, UpperStyle, LowerStyle} from "./polygonStyles"
+import {PolygonStyles} from "./polygonStyles"
 
 const interviewStyle = {
     position: "absolute",

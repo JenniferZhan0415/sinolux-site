@@ -2,10 +2,26 @@ import React from "react"
 import {Link} from "gatsby"
 
 import BackgroundImg from "./background/brackgroundImage"
-import Section from "../layouts/section"
 import BWI from "../widgets/buttons/buttonWithImg"
 
-import {PolygonStyles, UpperStyle, LowerStyle} from "./polygonStyles"
+const polygons = [
+    {
+        position: "absolute",
+        top: "0",
+        left: "20%",
+        width: "40%",
+        height: "100%",
+        transform: "rotate(-40deg)"
+    },
+    {
+        position: "absolute",
+        top: "0",
+        left: "70%",
+        width: "100%",
+        height: "100%",
+        transform: "rotate(20deg)"
+    }
+]
 
 const enStyle = {
     position: "absolute",
@@ -29,13 +45,13 @@ const Event = () => {
             <div style={enStyle}>
                 <BWI>
                     <Link to="/events/">YEAR ROUND COMMUNITY EVENTS</Link>
-                    <BackgroundImg style={PolygonStyles[4]}/>
+                    <BackgroundImg style={polygons[0]}/>
                 </BWI>
             </div>
             <div style={zhStyle}>
                 <BWI>
                     <Link to="/events/">全年观影团活动</Link>
-                    <BackgroundImg style={PolygonStyles[3]}/>
+                    <BackgroundImg style={polygons[1]}/>
                 </BWI>
             </div>
         </div>
