@@ -3,19 +3,23 @@ import React from "react"
 import "./section.scss"
 
 const Section = (props) => {
-    let style
-    if (props.height)
-        style = {
-            height: props.height
-        }
-    else
-        style = props.style
+    const styles = {}
+    if (props.style)
+        styles = props.style
     
-    let className = "section ";
-    className += Array.isArray(props.className) ? props.className.join(" ") : props.className;
+    if (props.height)
+        styles.height = props.height
+    
+    let className = "section";
+    className += props.className ? " " + props.className : "";
+
+    if (props.scrolled) {
+        styles.transformOrigin = "center left"
+        styles.transform = `rotate(${props.scrolled * 0.01 * 15 * -1}deg)`
+    }
 
     return (
-        <div className={className} style={style}>
+        <div className={className} style={styles}>
             {props.children}
         </div>
     )

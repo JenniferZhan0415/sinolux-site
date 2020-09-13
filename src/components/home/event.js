@@ -23,35 +23,21 @@ const polygons = [
     }
 ]
 
-const enStyle = {
-    position: "absolute",
-    top: "15%",
-    left: "30%",
-
-    transform: "rotate(-15deg)"
-}
-
-const zhStyle = {
-    position: "absolute",
-    top: "15%",
-    left: "55%",
-
-    transform: "rotate(-5deg)"
-}
-
 const Event = () => {
+    const events = {
+        position: "absolute",
+        top: "15%",
+        left: "30%",
+    
+        transform: `rotate(-20deg)`
+    }
+
     return (
         <div>
-            <div style={enStyle}>
+            <div style={events}>
                 <BWI>
-                    <Link to="/events/">YEAR ROUND COMMUNITY EVENTS</Link>
+                    <Link to="/events/">COMMUNITY EVENTS 观影团活动</Link>
                     <BackgroundImg style={polygons[0]}/>
-                </BWI>
-            </div>
-            <div style={zhStyle}>
-                <BWI>
-                    <Link to="/events/">全年观影团活动</Link>
-                    <BackgroundImg style={polygons[1]}/>
                 </BWI>
             </div>
         </div>

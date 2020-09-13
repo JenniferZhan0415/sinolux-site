@@ -5,6 +5,8 @@ import Background from "./background"
 import Section from "../layouts/section"
 import {Subtitle} from "../layouts/title"
 import Content from "./content"
+
+import ScrollIndicator from "../transforms/scroll"
 import HTrans from "../transforms/horizontal"
 
 import styles from "./about.module.scss"
@@ -20,9 +22,11 @@ const About = () => {
                 </Subtitle>
             </div>
 
-            <HTrans>
-                <Content/>
-            </HTrans>
+            <ScrollIndicator>
+                <HTrans>
+                    <Content/>
+                </HTrans>
+            </ScrollIndicator>
 
             <Background/>
         </Section>

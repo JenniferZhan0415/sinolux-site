@@ -7,25 +7,33 @@ import Event from "./event"
 import Interview from "./interview"
 import Footer from "../footer/footer"
 import Section from "../layouts/section"
+import ScrollAbsIndicator from "../transforms/scrollAbs"
 
-import styles from "./home.module.css"
+import styles from "./home.module.scss"
 
 const Home = () => {
-    return <div className={styles.home}>
-        <Background/>
-        
+    return (
+        <div className={styles.home}>
+            <Background/>
 
-        <Section>
-            <Exhibition/>
-            <Event/>
-            <Interview/>
-        </Section>
+            <ScrollAbsIndicator>
+                <Section>
+                    <Exhibition/>
+                    <Event/>
+                    <Interview/>
+                </Section>
+            </ScrollAbsIndicator>
 
-        <Footer>
-            <a href="https://tiff.net">TICKETS<br/>票</a>
-            <Link to="/about-us">ABOUT US<br/>关于我们</Link>
-        </Footer>
-    </div>
+            <Footer>
+                <a href="https://tiff.net">TICKETS<br/>票</a>
+                <Link to="/about-us">ABOUT US<br/>关于我们</Link>
+            </Footer>
+
+            <div className={styles.footer}>
+                <Link to="/about-us">© SINO<span className="italic">LUX</span> FILM, 2020<br/></Link>
+            </div>
+        </div>
+    )
 }
 
 export default Home
