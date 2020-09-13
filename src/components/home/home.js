@@ -7,7 +7,7 @@ import Event from "./event/event"
 import Interview from "./interview/interview"
 import Footer from "../footer/footer"
 import Section from "../layouts/section"
-import ScrollAbsIndicator from "../transforms/scrollAbs"
+import ScrollAbsIndicator from "../transforms/scrollAbs/scrollAbs"
 
 import styles from "./home.module.scss"
 
