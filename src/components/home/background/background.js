@@ -7,15 +7,11 @@ import styles from "./background.module.scss"
 const Background = () => {
     const polygon = {
         position: "fixed",
-        width: "50%",
-        top: "50%",
-        right: "15%",
-        transform: `translate(0,-60%) `,
     }
 
     return (
         <div className={styles.background}>
-            <BackgroundImg style={polygon}/>
+            <BackgroundImg style={polygon} className={styles.polygon}/>
         </div>
     )
 }

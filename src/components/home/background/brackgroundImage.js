@@ -20,10 +20,7 @@ const BackgroundImg = (props) => {
         data.src.childImageSharp.fluid,
     ]
 
-    const wrapperStyle = props.style
-    const imgStyle = props.imgStyle
-
-    return <Img fluid={sources} style={wrapperStyle} imgStyle={imgStyle}/>
+    return <Img fluid={sources} style={props.style} className={props.className}/>
 }
 
 export default BackgroundImg

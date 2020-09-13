@@ -9,9 +9,14 @@ $break: 700px;
 }
 
 .polygon {
-    position: fixed;
-    width: 50%;
-    top: 50%;
+    width: 75%;
+    top: 32%;
     right: 15%;
-    transform: translate(0,-60%);
+
+    @media(min-width: 700px) {
+        width: 50%;
+        top: 50%;
+        right: 15%;
+        transform: translate(0,-60%);
+    }
 }

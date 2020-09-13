@@ -1,0 +1,27 @@
+.review {
+    position: absolute;
+    top: 60%;
+    left: 30px;
+    transform: rotate(5deg);
+
+    @media(min-width: 700px) {
+        position: absolute;
+        top: 54%;
+        left: 32%;
+        transform: rotate(6deg)
+    }
+}
+
+.interview {
+    position: absolute;
+    top: 70%;
+    left: 30px;
+    transform: rotate(5deg);
+
+    @media(min-width: 700px) {
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        transform: rotate(15deg);
+    }
+}
