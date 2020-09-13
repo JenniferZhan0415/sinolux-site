@@ -4,10 +4,10 @@ import {Link} from "gatsby"
 
 import Title from "../layouts/title"
 
-import "./header.css"
+import styles from "./header.module.scss"
 
 const Header = ({ siteTitle }) => (
-	<header className="header">
+	<header className={styles.header}>
 		<Title>
 			<Link to="/">
 				SINO<span className="italic">LUX</span>
