@@ -14,7 +14,8 @@ const E2019 = () => {
                 <a href="#2019">
                     2019<br/>
                     娄烨 - 回顾展<br/>
-                    Lou Ye / A Retrospective<br/>
+                    Lou Ye<br/>
+                    A Retrospective
                 </a>
             </Footer>
         </Section>

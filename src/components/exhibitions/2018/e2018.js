@@ -14,7 +14,8 @@ const E2018 = () => {
                 <a href="#2018">
                     2018<br/>
                     张国荣 - 回顾展<br/>
-                    Leslie Cheung / A Retrospective<br/>
+                    Leslie Cheung<br/>
+                    A Retrospective
                 </a>
             </Footer>
         </Section>
