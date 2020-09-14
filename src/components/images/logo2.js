@@ -22,7 +22,7 @@ const Logo2 = (props) => {
 
     const wrapperStyle = props.style
 
-    return <Img fluid={sources} style={wrapperStyle}/>
+    return <Img fluid={sources} style={wrapperStyle} className={props.className}/>
 }
 
 export default Logo2

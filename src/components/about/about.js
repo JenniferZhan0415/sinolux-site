@@ -1,13 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Background from "./background"
 import Section from "../layouts/section"
 import {Subtitle} from "../layouts/title"
 import Content from "./content"
 
 import ScrollIndicator from "../transforms/scroll"
-import HTrans from "../transforms/horizontal"
+import Rotate from "../transforms/rotate/rotate"
 
 import styles from "./about.module.scss"
 
@@ -22,13 +21,12 @@ const About = () => {
                 </Subtitle>
             </div>
 
+            <Content/>
+
             <ScrollIndicator>
-                <HTrans>
-                    <Content/>
-                </HTrans>
+                <Rotate/>
             </ScrollIndicator>
 
-            <Background/>
         </Section>
     )
 }
