@@ -5,10 +5,9 @@ class ScrollAbsIndicator extends Component {
         super(props)
 
         this.children = props.children
+    
         this.state = {
-            scrolled: 0,
-            width: window.innerWidth,
-            height: window.innerHeight
+            scrolled: 0
         }
 
         this.scrollHandler = this.scrollHandler.bind(this)
@@ -16,6 +15,9 @@ class ScrollAbsIndicator extends Component {
     }
 
     componentDidMount() {
+        // init window width and height
+        this.setState({width: window.width, height:window.height})
+
         // attach onwheel event listener
         const e = document.querySelector('main')
         e.onwheel = this.scrollHandler

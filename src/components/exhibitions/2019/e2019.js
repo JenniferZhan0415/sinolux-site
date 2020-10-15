@@ -4,8 +4,6 @@ import Section from "../../layouts/section"
 import Content from "./content"
 import Footer from "../../footer/footer"
 
-import styles from "./e2019.module.scss"
-
 const E2019 = () => {
     return (
         <Section>

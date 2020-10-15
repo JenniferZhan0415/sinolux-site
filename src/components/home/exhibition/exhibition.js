@@ -58,6 +58,9 @@ const Exhibition = () => {
                     <Link to="/exhibitions/2019">2019</Link>&nbsp;
                     <BackgroundImg style={polygons[2]}/>
                 </BWI>
+                <div>
+                    <Link to="/exhibitions/2020">2020</Link>&nbsp;
+                </div>
             </div>
         </div>
     )
