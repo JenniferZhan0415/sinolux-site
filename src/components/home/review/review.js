@@ -24,17 +24,19 @@ const polygons = [
     },
 ]
 
-const Interview = (props) => {
+const Review = (props) => {
     return (
         <div>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
-                    <Link to="/interview">NEWS & INTERVIEWS</Link>
+                    <Link to="/review">REVIEWS</Link>
                 </Subtitle>
-                <BackgroundImg style={polygons[1]}/>
+                <BackgroundImg style={polygons[0]}/>
             </BWI>
         </div>
     )
 }
 
-export default Interview
+export default Review
+
+

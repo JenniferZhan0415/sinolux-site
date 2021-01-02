@@ -5,23 +5,16 @@
     left: 0;
     bottom: 0;
 
-    width: 100%;
-    height: 200px;
-    padding: 20px 10px 5px 30px;
+    height: 30%;
+    padding: 0 0 2vh 2vh;
 
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    line-height: 30px;
+    justify-content: flex-end;
 
-    z-index: 6;
-}
+    z-index: 1;
 
-.navBar a {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px transparent solid;
-    z-index: 3;
+    a:hover {
+        font-style: italic;
+    }
 }

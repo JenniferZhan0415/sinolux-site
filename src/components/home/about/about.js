@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import BackgroundImg from "..//background/brackgroundImage"
+import BackgroundImg from "../background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
@@ -14,12 +14,12 @@ const polygon = {
     transform: "rotate(-40deg)"
 }
 
-const Event = (props) => {
+const About = (props) => {
     return (
         <div>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
-                    <Link to="/events/">COMMUNITY EVENTS</Link>
+                    <Link to="/about-us">ABOUT US</Link>
                 </Subtitle>
                 <BackgroundImg style={polygon}/>
             </BWI>
@@ -27,4 +27,4 @@ const Event = (props) => {
     )
 }
 
-export default Event
+export default About

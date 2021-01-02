@@ -29,10 +29,12 @@ class BWI extends Component {
 
     displayImg() {
         this.setState({hover: true})
+        this.props.unsetDefault()
     }
 
     hideImage() {
         this.setState({hover: false})
+        this.props.setDefault()
     }
 
     render() {

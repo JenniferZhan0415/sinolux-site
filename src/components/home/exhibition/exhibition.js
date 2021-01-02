@@ -1,10 +1,9 @@
-import React from "react"
+import React, { Component } from "react"
 import {Link} from "gatsby"
 
 import BackgroundImg from "../background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
-
-import styles from "./exhibition.module.scss"
+import {Subtitle} from "../../layouts/title"
 
 const polygons = [
     {
@@ -41,27 +40,15 @@ const polygons = [
     }
 ]
 
-const Exhibition = () => {
+const Exhibition = (props) => {
     return (
         <div>
-            <div className={styles.exhibition}>
-                <span>EXHIBITION 影展&nbsp;</span>
-                <BWI>
-                    <Link to="/exhibitions/2017">2017</Link>&nbsp;
-                    <BackgroundImg style={polygons[0]}/>
-                </BWI>
-                <BWI>
-                    <Link to="/exhibitions/2018">2018</Link>&nbsp;
-                    <BackgroundImg style={polygons[1]}/>
-                </BWI>
-                <BWI>
-                    <Link to="/exhibitions/2019">2019</Link>&nbsp;
-                    <BackgroundImg style={polygons[2]}/>
-                </BWI>
-                <div>
-                    <Link to="/exhibitions/2020">2020</Link>&nbsp;
-                </div>
-            </div>
+            <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
+                <Subtitle>
+                    <Link to="/exhibitions/2020">EXHIBITIONS</Link>
+                </Subtitle>
+                <BackgroundImg style={polygons[0]}/>
+            </BWI>
         </div>
     )
 }

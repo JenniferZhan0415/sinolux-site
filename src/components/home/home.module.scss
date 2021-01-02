@@ -17,9 +17,10 @@
 
     @media(min-width: 700px) {
         position: absolute;
+        bottom: 2vh;
+        right: 2vh;
+
         display: inline-block;
-        bottom: 3%;
-        right: 2%;
         z-index: 3;
     }
 }

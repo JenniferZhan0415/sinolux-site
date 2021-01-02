@@ -5,7 +5,7 @@ import "./title.scss"
 const Title = (props) => {
     return (
         <div className="title">
-                {props.children}
+            {props.children}
 		</div>
     )
 }

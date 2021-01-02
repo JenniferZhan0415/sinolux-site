@@ -16,10 +16,10 @@
 
 .title {
     @include title-base;
-    font-size: 48pt;
-    line-height: 40pt;
+    font-size: 4vh;
+    line-height: 3vh;
 
-    z-index: 5;
+    z-index: 1;
 }
 
 .title a {
@@ -28,8 +28,8 @@
 
 .subtitle {
     @include title-base;
-    font-size: 34pt;
-    line-height: 32pt;
+    font-size: 4vh;
+    line-height: 3vh;
 
     // background: rgba($color: white, $alpha: 0.2);
 

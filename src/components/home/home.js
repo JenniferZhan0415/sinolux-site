@@ -1,39 +1,69 @@
-import React from "react"
+import React, { Component } from "react"
 import {Link} from "gatsby"
 
 import Background from "./background/background"
 import Exhibition from "./exhibition/exhibition"
 import Event from "./event/event"
 import Interview from "./interview/interview"
+import Review from "./review/review"
+import About from "./about/about"
+import Ticket from "./ticket/ticket"
 import Footer from "../footer/footer"
-import Section from "../layouts/section"
-import ScrollAbsIndicator from "../transforms/scrollAbs/scrollAbs"
 
 import styles from "./home.module.scss"
 
-const Home = () => {
-    return (
-        <div className={styles.home}>
-            <Background/>
+class Home extends Component {
+    constructor(props) {
+        super(props)
 
-            <ScrollAbsIndicator>
-                <Section>
-                    <Exhibition/>
-                    <Event/>
-                    <Interview/>
-                </Section>
-            </ScrollAbsIndicator>
+        this.setDefault = this.setDefault.bind(this)
+        this.unsetDefault = this.unsetDefault.bind(this)
 
-            <Footer>
-                <a href="https://tiff.net">TICKETS<br/>票</a>
-                <Link to="/about-us">ABOUT US<br/>关于我们</Link>
-            </Footer>
+        this.state = {
+            default: true
+        }
+    }
 
-            <div className={styles.footer}>
-                <Link to="/about-us">© SINO<span className="italic">LUX</span> FILM, 2020<br/></Link>
+    setDefault() {
+        this.setState({
+            default: true
+        })
+    }
+
+    unsetDefault() {
+        this.setState({
+            default: false
+        })
+    }
+
+    render() {
+        let background
+
+        if (this.state.default) {
+            background = <Background/>
+        } else {
+            background = null
+        }
+
+        return (
+            <div className={styles.home}>
+                {background}
+    
+                <Footer>
+                    <Exhibition setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                    <Event setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                    <Interview setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                    <Review setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                    <Ticket setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                    <About setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
+                </Footer>
+    
+                <div className={styles.footer}>
+                    <Link to="/about-us">© SINOLUX FILM, 2020<br/></Link>
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Home
