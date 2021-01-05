@@ -34,7 +34,7 @@ class Cover extends Component {
 
     render() {
         return (
-            <a href={this.dest} target="_blank" style={this.coverStyle} className={this.coverClass}>
+            <a href={this.dest} style={this.coverStyle} className={this.coverClass}>
                 <div style={imgWrapper}>{this.children[0]}</div>
                 <div style={contentWrapper}>
                     <div>{this.children[1]}</div>

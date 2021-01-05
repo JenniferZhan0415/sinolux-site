@@ -6,7 +6,6 @@ import Footer from "../footer/footer"
 import Row from "../layouts/row"
 
 import Articles from "./articals/table"
-import Background from "./background"
 
 import styles from "./review.module.scss"
 

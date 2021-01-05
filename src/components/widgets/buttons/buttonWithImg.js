@@ -47,7 +47,7 @@ class BWI extends Component {
         }
 
         return (
-            <div className="button" onMouseEnter={this.displayImg} onMouseLeave={this.hideImage}>
+            <div role="button" tabIndex="0" className="button" onMouseEnter={this.displayImg} onMouseLeave={this.hideImage}>
                 {content}
             </div>
         )

@@ -3,7 +3,7 @@ import React from "react"
 import "./section.scss"
 
 const Section = (props) => {
-    const styles = {}
+    let styles = {}
     if (props.style)
         styles = props.style
     
