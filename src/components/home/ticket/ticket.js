@@ -1,16 +1,15 @@
 import React from "react"
 
-import BackgroundImg from "../background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
-const polygon = {
-    position: "absolute",
-    top: "0",
-    left: "20%",
-    width: "40%",
-    height: "100%",
-    transform: "rotate(-40deg)"
+const title = {
+    position: "fixed",
+    top: "45vh",
+    left: "55vw",
+    fontStyle: "italic",
+    fontSize: "10vh",
+    transform: "scale(1,2)"
 }
 
 const Ticket = (props) => {
@@ -20,7 +19,7 @@ const Ticket = (props) => {
                 <Subtitle>
                     <a href="https://vimeo.com/ondemand/mpesinolux">TICKETS</a>
                 </Subtitle>
-                <BackgroundImg style={polygon}/>
+                <p style={title} className="serif">(购票)</p>
             </BWI>
         </div>
     )

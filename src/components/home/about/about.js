@@ -1,18 +1,18 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import BackgroundImg from "../background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
-const polygon = {
-    position: "absolute",
-    top: "0",
-    left: "20%",
-    width: "40%",
-    height: "100%",
-    transform: "rotate(-40deg)"
+const title = {
+    position: "fixed",
+    top: "45vh",
+    left: "55vw",
+    fontStyle: "italic",
+    fontSize: "10vh",
+    transform: "scale(1,2)"
 }
+
 
 const About = (props) => {
     return (
@@ -21,7 +21,7 @@ const About = (props) => {
                 <Subtitle>
                     <Link to="/about-us">ABOUT US</Link>
                 </Subtitle>
-                <BackgroundImg style={polygon}/>
+                <p style={title} className="serif">(关于华光)</p>
             </BWI>
         </div>
     )
