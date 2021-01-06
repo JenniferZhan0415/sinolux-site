@@ -1,28 +1,23 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import BackgroundImg from "../background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
-const polygons = [
-    {
-        position: "absolute",
-        top: "0",
-        left: "20%",
-        width: "60%",
-        height: "100%",
-        transform: "rotate(-40deg)"
-    },
-    {
-        position: "absolute",
-        top: "0",
-        left: "70%",
-        width: "50%",
-        height: "100%",
-        transform: "rotate(20deg)"
-    },
-]
+const title = {
+    position: "fixed",
+    top: "49vh",
+    left: "65vw",
+    fontStyle: "italic",
+    fontSize: "5vh",
+    lineHeight: "4.7vh"
+}
+
+const tri = {
+    position: "fixed",
+    top: "15vh",
+    left: "48vw",
+}
 
 const Review = (props) => {
     return (
@@ -31,7 +26,15 @@ const Review = (props) => {
                 <Subtitle>
                     <Link to="/review">REVIEWS</Link>
                 </Subtitle>
-                <BackgroundImg style={polygons[0]}/>
+                <div>
+                    <svg style={tri} width="40vh" height="40vh" viewBox="0 0 100 100">
+                        <polygon points="50 1, 1 99, 99 99" stroke="black" strokeWidth="0.5" fill="Gold" />
+                    </svg> 
+                    <p style={title} className="serif">
+                        (影评)<br/>
+                        (观后感)
+                    </p>
+                </div>
             </BWI>
         </div>
     )

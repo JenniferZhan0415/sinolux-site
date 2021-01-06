@@ -3,13 +3,10 @@ import React from "react"
 import Section from "../layouts/section"
 import Row from "../layouts/row"
 import Nav from "../layouts/navigation"
-import {Subtitle} from "../layouts/title"
 import Footer from "../footer/footer"
 
 import Cover from "../layouts/cover"
 import {covers} from "./articals/covers"
-
-import Background from "./background"
 
 import styles from "./events.module.scss"
 

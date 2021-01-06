@@ -12,7 +12,7 @@ const Title = (props) => {
 
 const Subtitle = (props) => {
     return (
-        <div className={"subtitle " + props.className}>
+        <div className={"subtitle " + props.className} style={props.style}>
             {props.children}
 		</div>
     )

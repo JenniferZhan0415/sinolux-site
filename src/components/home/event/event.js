@@ -1,17 +1,22 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import BackgroundImg from "..//background/brackgroundImage"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
-const polygon = {
-    position: "absolute",
-    top: "0",
-    left: "20%",
-    width: "40%",
-    height: "100%",
-    transform: "rotate(-40deg)"
+const title = {
+    position: "fixed",
+    top: "50vh",
+    left: "65vw",
+    textAlign: "center",
+    fontStyle: "italic",
+    fontSize: "5vh"
+}
+
+const circle = {
+    position: "fixed",
+    top: "13vh",
+    left: "45vw",
 }
 
 const Event = (props) => {
@@ -21,7 +26,12 @@ const Event = (props) => {
                 <Subtitle>
                     <Link to="/events/">COMMUNITY EVENTS</Link>
                 </Subtitle>
-                <BackgroundImg style={polygon}/>
+                <div>
+                    <svg style={circle} width="50vh" height="50vh">
+                        <circle cx="25vh" cy="25vh" r="22vh" stroke="black" strokeWidth="3" fill="salmon" />
+                    </svg> 
+                    <p style={title} className="serif">(影迷活动)</p>
+                </div>
             </BWI>
         </div>
     )

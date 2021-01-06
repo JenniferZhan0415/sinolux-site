@@ -4,7 +4,14 @@ import {Link} from "gatsby"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
-import styles from "./exhibition.module.scss"
+const info = {
+    position: "fixed",
+    top: "20vh",
+    left: "40vw",
+    textAlign: "center",
+    fontSize: "4vh",
+    lineHeight: "4vh"
+}
 
 const title = {
     fontSize: "3.2vh",
@@ -31,7 +38,7 @@ const Exhibition = (props) => {
                 <Subtitle>
                     <Link to="/exhibitions/2020">EXHIBITIONS</Link>
                 </Subtitle>
-                <div className={styles.info}>
+                <div style={info}>
                     <p style={title}>
                         "我的电影观念"<br/>
                         <span className={"italic"}>系列展映 VOL.25</span><br/>
