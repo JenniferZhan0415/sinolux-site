@@ -23,10 +23,8 @@ const title = {
 }
 
 const screenings = {
-    fontFamily: "adobe-caslon-pro, serif",
     fontStyle: "italic",
     fontWeight: "400",
-    // border: "0.3vh solid",
     borderRadius: "70%",
     padding: "4vh 3vw 4vh 3vw"
 }
@@ -47,7 +45,7 @@ const Exhibition = (props) => {
                         翠贝卡最佳学生短片
                     </p>
                     <br/>
-                    <p style={screenings}>
+                    <p style={screenings} className="serif">
                         女儿山 (Jebel Banat, 2018)<br/>
                         "生"长 (Cru-Raw, 2019)<br/>
                         January 17th (Sun) 19:30 ~ 21:00
