@@ -7,7 +7,7 @@ import {Subtitle} from "../../layouts/title"
 const title = {
     position: "fixed",
     top: "45vh",
-    left: "55vw",
+    left: "50vw",
     fontStyle: "italic",
     fontSize: "10vh",
     transform: "scale(1,2)"
