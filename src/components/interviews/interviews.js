@@ -6,7 +6,6 @@ import Footer from "../footer/footer"
 import Row from "../layouts/row"
 
 import Articles from "./articles/table"
-import Background from "./background"
 
 import styles from "./interviews.module.scss"
 

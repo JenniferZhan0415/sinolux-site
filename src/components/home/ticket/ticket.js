@@ -9,7 +9,8 @@ const title = {
     left: "55vw",
     fontStyle: "italic",
     fontSize: "10vh",
-    transform: "scale(1,2)"
+    transform: "scale(1,2)",
+    transition: "0.5s"
 }
 
 const Ticket = (props) => {
