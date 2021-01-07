@@ -9,9 +9,6 @@ const Section = (props) => {
     
     if (props.height)
         styles.height = props.height
-    
-    let className = "section";
-    className += props.className ? " " + props.className : "";
 
     if (props.scrolled) {
         styles.transformOrigin = "center left"
@@ -19,7 +16,7 @@ const Section = (props) => {
     }
 
     return (
-        <div className={className} style={styles}>
+        <div className={"section " + props.className} style={styles}>
             {props.children}
         </div>
     )
