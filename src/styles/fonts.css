@@ -48,8 +48,8 @@ body {
 /* 4k */
 @media(min-width: 3500px) {
     .text-normal {
-        font-size: 3vh;
-        line-height: 3.5vh;
+        font-size: 2vh;
+        line-height: 2.5vh;
     }
 }
 
