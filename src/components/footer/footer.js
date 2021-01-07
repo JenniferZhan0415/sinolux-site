@@ -2,10 +2,10 @@ import React from "react"
 
 import styles from "./footer.module.scss"
 
-const Footer = ({children}) => {
+const Footer = (props) => {
     return (
-        <div className={styles.navBar}>
-            {React.Children.map(children, (child, i) => {
+        <div className={styles.navBar + " " + props.className}>
+            {React.Children.map(props.children, (child, i) => {
                 return <span>{child}</span>
             })}
 		</div>
