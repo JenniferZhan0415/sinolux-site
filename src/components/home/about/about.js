@@ -7,7 +7,7 @@ import {Subtitle} from "../../layouts/title"
 const title = {
     position: "fixed",
     top: "45vh",
-    left: "50vw",
+    left: "45vw",
     fontStyle: "italic",
     fontSize: "10vh",
     transform: "scale(1,2)"
@@ -21,7 +21,7 @@ const About = (props) => {
                 <Subtitle>
                     <Link to="/about-us">ABOUT US</Link>
                 </Subtitle>
-                <p style={title} className="serif">(关于华光)</p>
+                <p style={title} className="serif">(关于华光电影)</p>
             </BWI>
         </div>
     )
