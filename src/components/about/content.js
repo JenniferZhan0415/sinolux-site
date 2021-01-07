@@ -109,8 +109,10 @@ const Content = () => {
                     Art Director / Web Design<br/>
                     W: IPR<br/>
                     IG: <a href="https://www.instagram.com/inpraiseofdionysus/">@in praise of dionysus</a><br/>
+                    <br/>
                 </p>
             </Row>
+            <p style={{height: "3vh"}}></p>
         </Section>
     )
 }
