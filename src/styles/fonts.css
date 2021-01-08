@@ -32,24 +32,24 @@ body {
 /* 1080p */
 @media(min-width: 1400px) {
     .text-normal {
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 20px;
+        line-height: 25px;
     }
 }
 
 /* 2k */
 @media(min-width: 2000px) {
     .text-normal {
-        font-size: 32px;
-        line-height: 37px;
+        font-size: 23px;
+        line-height: 28px;
     }
 }
 
 /* 4k */
 @media(min-width: 3500px) {
     .text-normal {
-        font-size: 2vh;
-        line-height: 2.5vh;
+        font-size: 1.5vh;
+        line-height: 2vh;
     }
 }
 
