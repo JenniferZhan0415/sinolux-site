@@ -6,10 +6,8 @@
 
     padding-top: 2vh;
     padding-left: 2vh;
-    text-align: center;
 
     @media(min-width: 900px) {
         width: 400px;
-        text-align: unset;
     }
 }
