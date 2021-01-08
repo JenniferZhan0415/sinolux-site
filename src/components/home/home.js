@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import {Link} from "gatsby"
 
-import Background from "./background/background"
+// import Background from "./background/background"
 import Exhibition from "./exhibition/exhibition"
 import Event from "./event/event"
 import Interview from "./interview/interview"
@@ -9,6 +9,7 @@ import Review from "./review/review"
 import About from "./about/about"
 import Ticket from "./ticket/ticket"
 import Footer from "../footer/footer"
+import Cover from "./cover/cover"
 
 import styles from "./home.module.scss"
 
@@ -40,7 +41,7 @@ class Home extends Component {
         let background
 
         if (this.state.default) {
-            background = <Background/>
+            background = <Cover/>
         } else {
             background = null
         }
@@ -48,7 +49,7 @@ class Home extends Component {
         return (
             <div className={styles.home}>
                 {background}
-    
+
                 <Footer>
                     <Exhibition setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
                     <Event setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
