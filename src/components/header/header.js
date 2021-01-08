@@ -10,7 +10,9 @@ const Header = ({ siteTitle }) => (
 	<header className={styles.header}>
 		<Title>
 			<Link to="/">
-				SINO<span className="italic">LUX</span>
+				SINO<span className="italic">LUX</span><br/>
+				FILM<br/>
+				<span className="italic serif">(under construction)</span>
 			</Link>
 		</Title>
 	</header>

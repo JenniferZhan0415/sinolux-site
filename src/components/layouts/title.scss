@@ -18,7 +18,7 @@
     @include title-base;
     font-size: 4vh;
     font-weight: 500;
-    line-height: 3vh;
+    line-height: 3.2vh;
 
     z-index: 1;
 }
@@ -29,9 +29,9 @@
 
 .subtitle {
     @include title-base;
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: 500;
-    line-height: 3vh;
+    line-height: 2vh;
 
     // background: rgba($color: white, $alpha: 0.2);
 
