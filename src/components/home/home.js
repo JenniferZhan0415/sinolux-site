@@ -38,17 +38,17 @@ class Home extends Component {
     }
 
     render() {
-        let background
+        let cover
 
         if (this.state.default) {
-            background = <Cover/>
+            cover = <Cover/>
         } else {
-            background = null
+            cover = null
         }
 
         return (
             <div className={styles.home}>
-                {background}
+                {cover}
 
                 <Footer>
                     <Exhibition setDefault={this.setDefault} unsetDefault={this.unsetDefault}/>
@@ -60,7 +60,7 @@ class Home extends Component {
                 </Footer>
     
                 <div className={styles.footer}>
-                    <Link to="/about-us">© SINOLUX FILM, 2020<br/></Link>
+                    <Link to="/about-us">© SINOLUX FILM, 2021<br/></Link>
                 </div>
             </div>
         )

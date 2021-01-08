@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
 
-// import {Subtitle} from "../../layouts/title"
 import styles from "./cover.module.scss"
 
 const cover = {
@@ -21,10 +20,12 @@ const Cover = () => {
     return (
         <Link to="/exhibitions/2020" style={cover}>
             <span className={styles.scroll}>
-                <p style={title} className="serif">("我的电影观念" 系列展映 VOL.25) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.desktop}>("我的电影观念" 系列展映 VOL.25) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.mobile}>(Shorts ~ TRIBECA Student Visionary Award) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
             </span>
             <span className={styles.scroll}>
-                <p style={title} className="serif">("我的电影观念" 系列展映 VOL.25) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.desktop}>("我的电影观念" 系列展映 VOL.25) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.mobile}>(Shorts ~ TRIBECA Student Visionary Award) / Jan. 17th (Sun) 19:30 ~ 21:00 /&nbsp;</p>
             </span>
         </Link>
     )
