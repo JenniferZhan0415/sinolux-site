@@ -1,168 +1,55 @@
-import React from "react"
+import React, {Component} from "react"
 
 import styles from "./exhibitions.module.scss"
 
-const Exhibitions = () => {
-    return (
-        <div className={styles.container}>
-            {/* navigation */}
-            {/* <div className={styles.navigation}>
-                <div className={styles.year}>
-                    <div className={styles.yearEntry}>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.yearEntry}>
-                        <div className={styles.sticky}>2020</div>
-                    </div>
-                    <div className={styles.yearEntry}>
-                        <div className={styles.sticky}>2019</div>
-                    </div>
-                    <div className={styles.yearEntry}>
-                        <div className={styles.sticky}>2018</div>
-                    </div>
-                    <div className={styles.yearEntry}>
-                        <div className={styles.sticky}>2018</div>
-                    </div>
-                </div>
-                <div></div>
-            </div> */}
+import Year2021 from "./2021/year"
 
-            <div className={styles.navigation1}>
-                <div className={styles.year1}>
-                    <div>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.month1}>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Jan</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Feb</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Mar</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                    </div>
-                </div>
+const introductions = {
+    "jebel": <div>haha</div>,
+    "cru": <div>hehe</div>
+}
 
-                <div className={styles.year1}>
-                    <div>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.month1}>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Jan</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Feb</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Mar</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                    </div>
-                </div>
+class Exhibitions extends Component {
+    constructor() {
+        super()
 
-                <div className={styles.year1}>
-                    <div>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.month1}>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Jan</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Feb</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Mar</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                    </div>
-                </div>
+        this.setIntroId = this.setIntroId.bind(this)
 
-                <div className={styles.year1}>
-                    <div>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.month1}>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Jan</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Feb</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Mar</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                    </div>
-                </div>
+        this.state = {
+            introId: false
+        }
+    }
 
-                <div className={styles.year1}>
-                    <div>
-                        <div className={styles.sticky}>2021</div>
-                    </div>
-                    <div className={styles.month1}>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Jan</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Feb</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                        <div className={styles.event}>
-                            <div>
-                                <div className={styles.sticky}>Mar</div>
-                            </div>
-                            <div>Jebel</div>
-                        </div>
-                    </div>
+    setIntroId(id) {
+        this.setState({
+            introId: id
+        })
+    }
+
+    render() {
+        let content
+
+        if (this.state.introId)
+            content = introductions[this.state.introId]
+        else
+            content = null
+
+        return (
+            <div className={styles.container + " text-normal"}>
+                {/* navigation */}
+                <div className={styles.navigation}>
+                    <Year2021 setIntroId={this.setIntroId}/>
+                    <Year2021/>
+                    <Year2021/>
+                    <Year2021/>
+                    <Year2021/>
                 </div>
+    
+                {/* content */}
+                {content}
             </div>
-
-            {/* content */}
-            <div>details / photos</div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Exhibitions

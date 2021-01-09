@@ -117,6 +117,10 @@ body {
     font-style: italic;
 }
 
+.bold {
+    font-weight: 500;
+}
+
 .underline {
     border-bottom: 2px solid;
 }

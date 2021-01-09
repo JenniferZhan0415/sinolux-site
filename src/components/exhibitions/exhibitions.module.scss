@@ -12,54 +12,57 @@
 .navigation {
     overflow-y: scroll;
     display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .navigation::-webkit-scrollbar {
-    display: none;
+    display: none; /* chrome */
 }
 
 .year {
     display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5rem;
 
+    height: 30vh;
+}
+
+.yearContainer {
     text-align: right;
 }
 
-.yearEntry {
-    height: 30vh;
-}
-
-.navigation1 {
-    overflow-y: scroll;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
-}
-
-.year1 {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 1fr;
-    height: 30vh;
-}
-
-.month1 {
+.months {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
 }
 
-.event {
+.month {
     display: grid;
     grid-template-columns: 33% 67%;
     grid-template-rows: 1fr;
 }
 
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
-    height: 30vh;
+    all: unset;
+
+    :hover {
+        cursor: pointer;
+
+        span {
+            font-style: italic;
+        }
+    }
 }
 
 .sticky {
