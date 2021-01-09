@@ -121,6 +121,10 @@ body {
     font-weight: 500;
 }
 
+.extra-bold {
+    font-weight: 600;
+}
+
 .underline {
     border-bottom: 2px solid;
 }
