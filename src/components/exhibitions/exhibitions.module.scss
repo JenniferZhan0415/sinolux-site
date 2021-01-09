@@ -1,0 +1,68 @@
+.container {
+    width: 100vw;
+    height: 85vh;
+
+    margin-top: 15vh;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}
+
+.navigation {
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+}
+
+.navigation::-webkit-scrollbar {
+    display: none;
+}
+
+.year {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+
+    text-align: right;
+}
+
+.yearEntry {
+    height: 30vh;
+}
+
+.navigation1 {
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+}
+
+.year1 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    height: 30vh;
+}
+
+.month1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-template-rows: 1fr;
+}
+
+.title {
+    height: 30vh;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}

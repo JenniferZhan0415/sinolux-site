@@ -34,7 +34,7 @@ const Exhibition = (props) => {
         <div>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
-                    <Link to="/exhibitions/2020">EXHIBITIONS</Link>
+                    <Link to="/exhibitions/">EXHIBITIONS</Link>
                 </Subtitle>
                 <div style={info}>
                     <p style={title}>
