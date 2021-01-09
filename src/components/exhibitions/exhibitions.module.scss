@@ -1,12 +1,52 @@
 .container {
     width: 100vw;
-    height: 85vh;
+    height: 88vh;
 
-    margin-top: 15vh;
+    margin-top: 12vh;
 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3vh auto;
+}
+
+.header {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
+}
+
+.headerNav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+}
+
+.headerY {
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5rem;
+}
+
+.headerM {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-template-rows: 1fr;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* chrome */
 }
 
 .navigation {
@@ -14,6 +54,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, auto);
+    row-gap: 1rem;
 
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -25,11 +66,9 @@
 
 .year {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 25% auto;
     grid-template-rows: 1fr;
     grid-gap: 0.5rem;
-
-    height: 30vh;
 }
 
 .yearContainer {
@@ -40,6 +79,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
+    row-gap: 0.5rem;
 }
 
 .month {
@@ -64,6 +104,7 @@
 
     span {
         font-style: italic;
+        color: #FC4020;
     }
 }
 
