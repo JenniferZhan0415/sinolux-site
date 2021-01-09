@@ -19,12 +19,12 @@ class Jan extends Component {
                         <span className="italic">Student Visionary Award</span>
                     </p>
                     <button className={styles.title} onClick={this.setId.bind(this, 'jebel')} onKeyDown={this.setId.bind(this, 'jebel')}>
-                        <span className="bold red">Jebel Banat</span><br/>
+                        <span className="bold">Jebel Banat</span><br/>
                         Y: 2018<br/>
                         D: Sharine Atif
                     </button>
                     <button className={styles.title} onClick={this.setId.bind(this, 'cru')} onKeyDown={this.setId.bind(this, 'cru')}>
-                        <span className="bold yellow">Cru</span><br/>
+                        <span className="bold">Cru</span><br/>
                         Y: 2019<br/>
                         D: David Oesch
                     </button>
