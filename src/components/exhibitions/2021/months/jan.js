@@ -2,10 +2,6 @@ import React, {Component} from "react"
 
 import styles from "../../exhibitions.module.scss"
 
-const buttonStyle = {
-    all: "unset"
-}
-
 class Jan extends Component {
     setId(id) {
         this.props.setIntroId(id)

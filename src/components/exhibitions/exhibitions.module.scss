@@ -56,12 +56,14 @@
 .title {
     all: unset;
 
-    :hover {
-        cursor: pointer;
+    margin-bottom: 1rem;
+}
 
-        span {
-            font-style: italic;
-        }
+.title:hover {
+    cursor: pointer;
+
+    span {
+        font-style: italic;
     }
 }
 
