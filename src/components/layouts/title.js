@@ -20,7 +20,7 @@ const Subtitle = (props) => {
 
 const Subsubtitle = (props) => {
     return (
-        <div className={"subsubtitle " + props.className}>
+        <div className={"subsubtitle " + props.className} style={props.style}>
             {props.children}
 		</div>
     )

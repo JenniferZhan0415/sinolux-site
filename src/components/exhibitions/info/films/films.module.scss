@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 1fr;
+
+    a {
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.8);
+    }
+
+    a:hover {
+        color: mediumorchid;
+    }
+}
+
+span {
+    a {
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.8);
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: mediumorchid;
+    }
+}
+
+.section {
+    margin-bottom: 3em;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 4fr;
+    row-gap: 1rem;
+}
+
+.imgWrapper {
+    margin-top: 1em;
+    margin-right: 30%;
+    border: 2px solid black;
+    overflow: hidden;
+}

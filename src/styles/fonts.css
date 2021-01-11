@@ -130,11 +130,15 @@ body {
 }
 
 .black {
-    color: black;
+    color: hsla(0, 0%, 0%, 0.8);
 }
 
 .white {
     color: white;
+}
+
+.grey {
+    color: gray;
 }
 
 .red {
@@ -151,6 +155,10 @@ body {
 
 .green {
     color: #529e00;
+}
+
+.purple {
+    color: mediumorchid;
 }
 
 @media (min-width: 1000px) {

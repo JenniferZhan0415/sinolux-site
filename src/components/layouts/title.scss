@@ -47,7 +47,9 @@
 
 .subsubtitle {
     @include title-base();
-    font-size: 28pt;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 2vh;
 }
 
 .pageTitle {

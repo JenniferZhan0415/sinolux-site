@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
+    grid-gap: 2rem;
 }
 
 .headerNav {
@@ -38,6 +39,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
+    grid-gap: 2rem;
 
     overflow-y: scroll;
 
@@ -104,7 +106,11 @@
 
     span {
         font-style: italic;
-        color: #FC4020;
+        // color: #FC4020;
+        // color: #FFBE2E;
+        // color: #529e00;
+        color: #0043FF;
+        // color: mediumorchid;
     }
 }
 

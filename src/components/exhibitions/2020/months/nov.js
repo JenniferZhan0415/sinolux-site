@@ -15,8 +15,8 @@ class Nov extends Component {
                 </div>
                 <div className={styles.titles}>
                     <p>
-                        Programme<br/>
-                        With <span className="italic">Norris Wong</span>
+                        With<br/>
+                        <span className="italic">Norris Wong</span>
                     </p>
                     <button className={styles.title} onClick={this.setId.bind(this, 'edward')} onKeyDown={this.setId.bind(this, 'edward')}>
                         <span className="bold">My Prince Edward</span><br/>
