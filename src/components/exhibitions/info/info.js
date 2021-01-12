@@ -1,10 +1,11 @@
 import React from "react"
 
 import Jebel from "./films/jebel"
+import Cru from "./films/cru"
 
 const Introductions = {
     "jebel": <Jebel/>,
-    "cru": <div>hehe</div>,
+    "cru": <Cru/>,
     "edward": <div>my prince edward</div>,
     "wind": <div>let the wind carry me</div>,
     "suzhou": <div>suzhou river</div>,

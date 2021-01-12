@@ -52,7 +52,7 @@ const Content = () => {
                     Founder / Programmer /<br/>
                     Operating Manager / Writer<br/>
                     E: <a href="mailto:jennifer@sinoluxfilm.com">jennifer@sinoluxfilm.com</a><br/>
-                    IG: <a href="https://www.instagram.com/xuanyi.zhan/">@xuanyi.zhan</a>
+                    IG: <a target="_blank" rel="noreferrer" href="https://www.instagram.com/xuanyi.zhan/">@xuanyi.zhan</a>
                 </p>
             </Row>
             <Row>
@@ -108,7 +108,7 @@ const Content = () => {
                     艺术总监 / 网站<br/>
                     Art Director / Web Design<br/>
                     W: IPR<br/>
-                    IG: <a href="https://www.instagram.com/inpraiseofdionysus/">@in praise of dionysus</a><br/>
+                    IG: <a target="_blank" rel="noreferrer" href="https://www.instagram.com/inpraiseofdionysus/">@in praise of dionysus</a><br/>
                     <br/>
                 </p>
             </Row>
