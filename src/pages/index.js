@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Home from "../components/home/home"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout noScroll="True">
     <SEO
       title="Home"
       description="Sinolux Homepage"

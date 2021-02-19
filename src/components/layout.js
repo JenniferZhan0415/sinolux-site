@@ -12,7 +12,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header/header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const noScroll = {
+  overflowX: "hidden",
+  overflowY: "hidden"
+}
+
+const Layout = (props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,10 +28,14 @@ const Layout = ({ children }) => {
     }
   `)
 
+  let main = <main>{props.children}</main> 
+  if (props.noScroll)
+    main = <main style={noScroll}>{props.children}</main>
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      {main}
     </>
   )
 }

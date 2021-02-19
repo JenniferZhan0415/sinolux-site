@@ -12,6 +12,7 @@ import Footer from "../footer/footer"
 import Cover from "./cover/cover"
 
 import styles from "./home.module.scss"
+import "./home.css"
 
 class Home extends Component {
     constructor(props) {
