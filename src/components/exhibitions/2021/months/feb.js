@@ -18,7 +18,7 @@ class Feb extends Component {
                         Virtual Screening<br/>
                     </p>
                     <button className={styles.title} onClick={this.setId.bind(this, 'farewell')} onKeyDown={this.setId.bind(this, 'farewell')}>
-                        <span className="bold">A first Farewell</span><br/>
+                        <span className="bold">A First Farewell</span><br/>
                         Y: 2018<br/>
                         D: Lina Wang
                     </button>
