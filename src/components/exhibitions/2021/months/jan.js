@@ -14,7 +14,7 @@ class Jan extends Component {
                     <div className={styles.sticky}>January</div>
                 </div>
                 <div className={styles.titles}>
-                    <p>
+                    <p className={styles.event}>
                         Shorts from TRIBECA<br/>
                         <span className="italic">Student Visionary Award</span>
                     </p>

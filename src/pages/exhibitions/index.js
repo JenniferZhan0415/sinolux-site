@@ -5,7 +5,7 @@ import SEO from "../../components/seo"
 import Exhibitions from "../../components/exhibitions/exhibitions"
 
 const ExhibitionPage = () => (
-  <Layout>
+  <Layout noScroll="True">
     <SEO
       title="Exhibitions"
       description="Sinolux Film Exhibitions"

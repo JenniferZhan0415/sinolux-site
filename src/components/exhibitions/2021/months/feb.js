@@ -1,0 +1,31 @@
+import React, {Component} from "react"
+
+import styles from "../../exhibitions.module.scss"
+
+class Feb extends Component {
+    setId(id) {
+        this.props.setIntroId(id)
+    }
+
+    render() {
+        return (
+            <div className={styles.month}>
+                <div>
+                    <div className={styles.sticky}>February</div>
+                </div>
+                <div className={styles.titles}>
+                    <p className={styles.event}>
+                        Virtual Screening<br/>
+                    </p>
+                    <button className={styles.title} onClick={this.setId.bind(this, 'farewell')} onKeyDown={this.setId.bind(this, 'farewell')}>
+                        <span className="bold">A first Farewell</span><br/>
+                        Y: 2018<br/>
+                        D: Lina Wang
+                    </button>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Feb

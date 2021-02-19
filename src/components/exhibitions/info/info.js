@@ -2,8 +2,10 @@ import React from "react"
 
 import Jebel from "./films/jebel"
 import Cru from "./films/cru"
+import Farewell from "./films/farewell/farewell"
 
 const Introductions = {
+    "farewell": <Farewell/>,
     "jebel": <Jebel/>,
     "cru": <Cru/>,
     "edward": <div>my prince edward</div>,

@@ -18,7 +18,7 @@ const Ticket = (props) => {
         <div>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
-                    <a href="https://vimeo.com/ondemand/mpesinolux">TICKETS</a>
+                    <a target="_blank" rel="noreferrer" href="https://vimeo.com/ondemand/sinoluxtoronto">TICKET</a>
                 </Subtitle>
                 <p style={title} className="serif">(购票)</p>
             </BWI>
