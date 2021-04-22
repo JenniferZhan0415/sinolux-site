@@ -20,11 +20,19 @@
     display: none;
 
     @media(min-width: 700px) {
-        position: absolute;
-        bottom: 2vh;
-        right: 2vh;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 0 1vh 1vh 0;
 
-        display: inline-block;
+        display: flex;
+        flex-direction: column-reverse;
         z-index: 3;
+
+        font-size: 3vh;
     }
+}
+
+.footerSpan {
+    height: 3vh;
 }
