@@ -25,7 +25,7 @@ const About = (props) => {
                 <Subtitle>
                     <Link to="/about-us">ABOUT US</Link>
                 </Subtitle>
-                <p style={title} className="serif">(关于华光电影)</p>
+                <p style={title} className="serif">(关于)</p>
             </BWI>
         </div>
     )
