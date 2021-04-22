@@ -3,6 +3,10 @@ import React from "react"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
+const entryStyle = {
+    height: "3vh"
+}
+
 const title = {
     position: "fixed",
     top: "45vh",
@@ -15,7 +19,7 @@ const title = {
 
 const Ticket = (props) => {
     return (
-        <div>
+        <div style={entryStyle}>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
                     <a target="_blank" rel="noreferrer" href="https://vimeo.com/ondemand/sinoluxtoronto">TICKET</a>

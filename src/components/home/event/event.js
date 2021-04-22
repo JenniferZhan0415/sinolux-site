@@ -4,6 +4,10 @@ import {Link} from "gatsby"
 import BWI from "../../widgets/buttons/buttonWithImg"
 import {Subtitle} from "../../layouts/title"
 
+const entryStyle = {
+    height: "3vh"
+}
+
 const title = {
     position: "fixed",
     top: "50vh",
@@ -21,7 +25,7 @@ const circle = {
 
 const Event = (props) => {
     return (
-        <div>
+        <div style={entryStyle}>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
                     <Link to="/events/">COMMUNITY EVENTS</Link>
