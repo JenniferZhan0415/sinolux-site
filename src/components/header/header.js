@@ -11,8 +11,7 @@ const Header = ({ siteTitle }) => (
 		<Title>
 			<Link to="/">
 				SINO<span className="italic">LUX</span><br/>
-				FILM<br/>
-				<span className="italic serif">(under construction)</span>
+				FILM
 			</Link>
 		</Title>
 	</header>

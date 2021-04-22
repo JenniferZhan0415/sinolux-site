@@ -1,7 +1,7 @@
 @mixin title-base {
     display: inline-block;
     width: 100%;
-    background-color: transparent;
+    // background-color: transparent;
     z-index: 3;
 }
 
@@ -20,7 +20,7 @@
     font-weight: 500;
     line-height: 3.2vh;
 
-    z-index: 1;
+    z-index: 3;
 }
 
 .title a {
