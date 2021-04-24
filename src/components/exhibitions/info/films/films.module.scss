@@ -30,3 +30,66 @@
     border: 2px solid black;
     overflow: hidden;
 }
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh repeat(4, 45vh);
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    a {
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.8);
+    }
+
+    a:hover {
+        color: mediumorchid;
+    }
+}
+
+.collection5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh repeat(5, 45vh);
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    a {
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.8);
+    }
+
+    a:hover {
+        color: mediumorchid;
+    }
+}
+
+.collection6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh repeat(6, 45vh);
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    a {
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.8);
+    }
+
+    a:hover {
+        color: mediumorchid;
+    }
+}
+
+.collectionEntry {
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 5vw;
+}

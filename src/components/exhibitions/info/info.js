@@ -3,11 +3,19 @@ import React from "react"
 import Jebel from "./films/jebel"
 import Cru from "./films/cru"
 import Farewell from "./films/farewell/farewell"
+import Frac from "./films/fractures/frac"
+import Dnp from "./films/prisons/dnp"
+import False from "./films/false/false"
+import Imagination from "./films/imagination/imagination"
 
 const Introductions = {
     "farewell": <Farewell/>,
     "jebel": <Jebel/>,
     "cru": <Cru/>,
+    "frac": <Frac/>,
+    "dnp": <Dnp/>,
+    "false": <False/>,
+    "imagination": <Imagination/>,
     "edward": <div>my prince edward</div>,
     "wind": <div>let the wind carry me</div>,
     "suzhou": <div>suzhou river</div>,

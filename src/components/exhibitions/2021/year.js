@@ -1,7 +1,8 @@
 import React from "react"
 
-import Jan from "./months/jan"
+// import Jan from "./months/jan"
 import Feb from "./months/feb"
+import Apr from "./months/apr"
 import styles from "../exhibitions.module.scss"
 
 const Year2021 = (props) => {
@@ -11,8 +12,9 @@ const Year2021 = (props) => {
                 <div className={styles.sticky}>2021</div>
             </div>
             <div className={styles.months}>
+                <Apr setIntroId={props.setIntroId}/>
                 <Feb setIntroId={props.setIntroId}/>
-                <Jan setIntroId={props.setIntroId}/>
+                {/* <Jan setIntroId={props.setIntroId}/> */}
             </div>
         </div>
     )
