@@ -7,6 +7,9 @@ import Frac from "./films/fractures/frac"
 import Dnp from "./films/prisons/dnp"
 import False from "./films/false/false"
 import Imagination from "./films/imagination/imagination"
+import Bygone from "./films/bygone/bygone"
+import Truth from "./films/truth/truth"
+import Childhood from "./films/childhood/childhood"
 
 const Introductions = {
     "farewell": <Farewell/>,
@@ -16,6 +19,9 @@ const Introductions = {
     "dnp": <Dnp/>,
     "false": <False/>,
     "imagination": <Imagination/>,
+    "bygone": <Bygone/>,
+    "truth": <Truth/>,
+    "childhood": <Childhood/>,
     "edward": <div>my prince edward</div>,
     "wind": <div>let the wind carry me</div>,
     "suzhou": <div>suzhou river</div>,

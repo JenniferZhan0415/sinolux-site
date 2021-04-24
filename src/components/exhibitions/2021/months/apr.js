@@ -37,6 +37,21 @@ class Apr extends Component {
                         偶然与想象<br/>
                         Serendipity & Imagination
                     </button>
+                    <button className={styles.title} onClick={this.setId.bind(this, 'bygone')} onKeyDown={this.setId.bind(this, 'bygone')}>
+                        <span className="bold">Section 5</span><br/>
+                        往事并不如烟<br/>
+                        Bygone not Gone By
+                    </button>
+                    <button className={styles.title} onClick={this.setId.bind(this, 'truth')} onKeyDown={this.setId.bind(this, 'truth')}>
+                        <span className="bold">Section 6</span><br/>
+                        不容揭露的真相<br/>
+                        Hidden Truth
+                    </button>
+                    <button className={styles.title} onClick={this.setId.bind(this, 'childhood')} onKeyDown={this.setId.bind(this, 'childhood')}>
+                        <span className="bold">Section 7</span><br/>
+                        深度广角下的童真暴力<br/>
+                        Childhood Violence
+                    </button>
                 </div>
             </div>
         )
