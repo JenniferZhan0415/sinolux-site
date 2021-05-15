@@ -19,8 +19,9 @@ const Farewell = () => {
             <div>
                 <br/>
                 <p className={styles.section}>
-                    <Subsubtitle>A First Farewell <span className="italic">(2018)</span></Subsubtitle>
-                    Directed by <a target="_blank" rel="noreferrer" href="http://www.david-oesch.com/">Lina Wang</a>
+                    <Subsubtitle>A First Farewell</Subsubtitle><br/>
+                    Y: 2018<br/>
+                    D: <a target="_blank" rel="noreferrer" href="https://www.imdb.com/name/nm10018536/">Lina Wang</a>
                 </p>
                 <p className={styles.section}>
                     <span className="bold">Watch / Ticket</span><br/>
@@ -30,31 +31,31 @@ const Farewell = () => {
                     <span className="bold">Details</span><br/>
                     <div className={styles.detail}>
                         <div>
-                            <span className="italic grey">Catogory</span><br/>
+                            <span className="grey">Catogory</span><br/>
                             <span>Feature</span>
                         </div>
                         <div>
-                            <span className="italic grey">Length</span><br/>
+                            <span className="grey">Length</span><br/>
                             <span>90 min</span>
                         </div>
                         <div>
-                            <span className="italic grey">Genre</span><br/>
+                            <span className="grey">Genre</span><br/>
                             <span>Drama / Family</span>
                         </div>
                         <div>
-                            <span className="italic grey">Country</span><br/>
+                            <span className="grey">Country</span><br/>
                             <span>China</span>
                         </div>
                         <div>
-                            <span className="italic grey">Language</span><br/>
+                            <span className="grey">Language</span><br/>
                             <span>Chinese / Uyghur</span>
                         </div>
                         <div>
-                            <span className="italic grey">Color</span><br/>
+                            <span className="grey">Color</span><br/>
                             <span>Color</span>
                         </div>
                         <div>
-                            <span className="italic grey">Aspect Ratio</span><br/>
+                            <span className="grey">Aspect Ratio</span><br/>
                             <span>1.85:1</span>
                         </div>
                     </div>

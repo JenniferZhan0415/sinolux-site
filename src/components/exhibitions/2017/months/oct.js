@@ -14,17 +14,17 @@ class Dec extends Component {
                     <div className={styles.sticky}><br/>October</div>
                 </div>
                 <div className={styles.titles}>
-                    <p className={styles.event}>
-                        BLUE<br/>
+                    <p className={styles.event + " bold"}>
+                        <br/>BLUE<br/>
                         <span className="italic">Film Exhibition</span>
                     </p>
                     <button className={styles.title} onClick={this.setId.bind(this, 'gate')} onKeyDown={this.setId.bind(this, 'gate')}>
-                        <span className="bold">Blue Gate Cross</span><br/>
+                        <span className="bold">Blue Gate Crossing</span><br/>
                         Y: 2002<br/>
                         D: Yi Zhiyan
                     </button>
                     <button className={styles.title} onClick={this.setId.bind(this, 'current')} onKeyDown={this.setId.bind(this, 'current')}>
-                        <span className="bold">Cross Current</span><br/>
+                        <span className="bold">Crosscurrent</span><br/>
                         Y: 2016<br/>
                         D: Yang Chao
                     </button>

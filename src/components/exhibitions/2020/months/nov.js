@@ -14,8 +14,8 @@ class Nov extends Component {
                     <div className={styles.sticky}><br/>November</div>
                 </div>
                 <div className={styles.titles}>
-                    <p className={styles.event}>
-                        With<br/>
+                    <p className={styles.event + " bold"}>
+                        <br/>With<br/>
                         <span className="italic">Norris Wong</span>
                     </p>
                     <button className={styles.title} onClick={this.setId.bind(this, 'edward')} onKeyDown={this.setId.bind(this, 'edward')}>
