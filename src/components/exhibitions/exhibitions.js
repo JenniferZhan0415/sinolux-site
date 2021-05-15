@@ -48,7 +48,7 @@ class Exhibitions extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className={"bold purple"}>Info</div>
+                    <div className={styles.headerInfo + " bold purple"}>Info</div>
                 </div>
                 {/* content */}
                 <div className={styles.content}>
@@ -61,7 +61,9 @@ class Exhibitions extends Component {
                         <Year2017 setIntroId={this.setIntroId}/>
                     </div>
                     {/* content */}
-                    {content}
+                    <div className={styles.contentInfo}>
+                        {content}
+                    </div>
                 </div>
                 {/* scroll padding */}
                 <div className={styles.scrollPadding}/>
