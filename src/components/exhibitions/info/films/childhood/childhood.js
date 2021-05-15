@@ -21,7 +21,15 @@ const Childhood = () => {
     return (
         <div className={styles.collection6}>
             <div className={styles.collectionEntry}>
-                4 月 26 日 “深度广角下的童真暴力” 单元四部影片中，有人因为地域歧视而失去了所有朋友，有人通过炸虫子和偷游戏机来消化暴力父母的冲突，有人把对母亲的情感寄托在一头正在被捕杀的山羊上，也有人要找一只黑山羊献给魔鬼来停止厄运的发生，还有人在一天之内遭遇了家庭变故和分离，他们各自面对着成长中的困境，通过纯真的视角融化世间的无解，达成自我的救赎，展现成人世界易被忽略的生命本原。
+                <div>
+                    <p>
+                        <Subsubtitle className="grey">Section 7</Subsubtitle><br/>
+                        <Subsubtitle>Childhood Violence</Subsubtitle>
+                    </p>
+                    <p>
+                        4 月 26 日 “深度广角下的童真暴力” 单元四部影片中，有人因为地域歧视而失去了所有朋友，有人通过炸虫子和偷游戏机来消化暴力父母的冲突，有人把对母亲的情感寄托在一头正在被捕杀的山羊上，也有人要找一只黑山羊献给魔鬼来停止厄运的发生，还有人在一天之内遭遇了家庭变故和分离，他们各自面对着成长中的困境，通过纯真的视角融化世间的无解，达成自我的救赎，展现成人世界易被忽略的生命本原。
+                    </p>
+                </div>
             </div>
             <div className={styles.collectionEntry}>
                 <div>

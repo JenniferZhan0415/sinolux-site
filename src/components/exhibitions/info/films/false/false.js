@@ -24,8 +24,16 @@ const imgWrapperLandscape = {
 const False = () => {
     return (
         <div className={styles.collection6}>
-            <div className={styles.collectionEntry}>
-            在 4 月 22 日 “虚实之间” 单元中，我们将为您带来的四部先锋动画影像创作 -- 他们用隐喻尖锐的手法、跳跃的思维来反思真实的人类社会，和两部纪录片 -- 带领着我们，通过写实的镜头，跨越语言和国界的巴别塔，描述日常经验之外的严肃与梦幻。幻想与真实并不是相斥的两条平行线，而是互相交织，共同展现多元的电影艺术魅力。
+            <div className={styles.collectionEntry + " " + styles.collectionIntro}>
+                <div>
+                    <p>
+                        <Subsubtitle className="grey">Section 3</Subsubtitle><br/>
+                        <Subsubtitle>Between the Real & False</Subsubtitle>
+                    </p>
+                    <p>
+                        在 4 月 22 日 “虚实之间” 单元中，我们将为您带来的四部先锋动画影像创作 -- 他们用隐喻尖锐的手法、跳跃的思维来反思真实的人类社会，和两部纪录片 -- 带领着我们，通过写实的镜头，跨越语言和国界的巴别塔，描述日常经验之外的严肃与梦幻。幻想与真实并不是相斥的两条平行线，而是互相交织，共同展现多元的电影艺术魅力。
+                    </p>
+                </div>
             </div>
             <div className={styles.collectionEntry}>
                 <div>

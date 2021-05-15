@@ -48,6 +48,11 @@
     a:hover {
         color: mediumorchid;
     }
+
+    /* 1080p */
+    @media(min-width: 1400px) {
+        grid-template-rows: 33vh repeat(4, 45vh);
+    }
 }
 
 .collection5 {
@@ -67,6 +72,11 @@
     a:hover {
         color: mediumorchid;
     }
+
+    /* 1080p */
+    @media(min-width: 1400px) {
+        grid-template-rows: 33vh repeat(5, 45vh);
+    }
 }
 
 .collection6 {
@@ -85,6 +95,11 @@
 
     a:hover {
         color: mediumorchid;
+    }
+
+    /* 1080p */
+    @media(min-width: 1400px) {
+        grid-template-rows: 33vh repeat(6, 45vh);
     }
 }
 
