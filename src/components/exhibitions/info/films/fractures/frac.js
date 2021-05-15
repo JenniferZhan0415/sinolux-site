@@ -19,6 +19,7 @@ const Frac = () => {
         <div className={styles.collection}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 1</Subsubtitle><br/>
                         <Subsubtitle>Fractures</Subsubtitle>

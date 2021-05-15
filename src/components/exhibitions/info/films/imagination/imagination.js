@@ -25,6 +25,7 @@ const Imagination = () => {
         <div className={styles.collection5}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 4</Subsubtitle><br/>
                         <Subsubtitle>Serendipity & Imagination</Subsubtitle>

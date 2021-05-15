@@ -7,7 +7,7 @@ const Year2018 = (props) => {
     return (
         <div className={styles.year}>
             <div className={styles.yearContainer}>
-                <div className={styles.sticky}>2018</div>
+                <div className={styles.sticky}><br/>2018</div>
             </div>
             <div className={styles.months}>
                 <Dec setIntroId={props.setIntroId}/>

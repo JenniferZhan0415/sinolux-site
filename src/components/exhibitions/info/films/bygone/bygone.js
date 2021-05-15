@@ -25,9 +25,10 @@ const Bygone = () => {
         <div className={styles.collection5}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 5</Subsubtitle><br/>
-                        <Subsubtitle>Hidden Truth</Subsubtitle>
+                        <Subsubtitle>Bygone not Gone By</Subsubtitle>
                     </p>
                     <p>
                         当命运的激流将人冲向未知，原本亲密的人们是否还能同行？4 月 24 日 “往事并不如烟” 单元的五部影片，分别从爱情、亲情、家庭、夫妻四个维度的不同解读。在流水线上消磨青春的工厂小妹和以仙人跳为生的失足少女，同样遭遇了恋人分离，怀揣着生命的不可承受之轻，她们将如何前行？父亲的缺失造成的隐痛，是否能通过成长，在记忆与现实的台风里找寻到那片明朗的海滩，与父亲再次漫步？在历史潮流和个人命运冲突时，意志的满足与家庭的陪伴，又将如何抉择？志在远方的孩子们和怯懦的舅舅，同一屋檐下的至亲，无论是矛盾还是羁绊，最终依旧各奔东西。

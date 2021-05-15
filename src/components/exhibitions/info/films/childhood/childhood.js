@@ -22,6 +22,7 @@ const Childhood = () => {
         <div className={styles.collection6}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 7</Subsubtitle><br/>
                         <Subsubtitle>Childhood Violence</Subsubtitle>

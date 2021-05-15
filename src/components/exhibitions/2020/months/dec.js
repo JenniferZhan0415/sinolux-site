@@ -11,7 +11,7 @@ class Dec extends Component {
         return (
             <div className={styles.month}>
                 <div>
-                    <div className={styles.sticky}>December</div>
+                    <div className={styles.sticky}><br/>December</div>
                 </div>
                 <div className={styles.titles}>
                     <p className={styles.event}>

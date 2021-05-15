@@ -26,6 +26,7 @@ const False = () => {
         <div className={styles.collection6}>
             <div className={styles.collectionEntry + " " + styles.collectionIntro}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 3</Subsubtitle><br/>
                         <Subsubtitle>Between the Real & False</Subsubtitle>

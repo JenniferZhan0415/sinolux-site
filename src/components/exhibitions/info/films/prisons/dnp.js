@@ -20,6 +20,7 @@ const Dnp = () => {
         <div className={styles.collection5}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 2</Subsubtitle><br/>
                         <Subsubtitle>Desire & Prison</Subsubtitle>

@@ -24,6 +24,7 @@ const Truth = () => {
         <div className={styles.collection5}>
             <div className={styles.collectionEntry}>
                 <div>
+                    <br/>
                     <p>
                         <Subsubtitle className="grey">Section 6</Subsubtitle><br/>
                         <Subsubtitle>Hidden Truth</Subsubtitle>

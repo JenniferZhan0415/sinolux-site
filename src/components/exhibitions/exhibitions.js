@@ -63,6 +63,8 @@ class Exhibitions extends Component {
                     {/* content */}
                     {content}
                 </div>
+                {/* scroll padding */}
+                <div className={styles.scrollPadding}/>
             </div>
         )
     }

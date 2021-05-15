@@ -124,3 +124,13 @@
     position: sticky;
     top: 0;
 }
+
+.scrollPadding {
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, white 10%, rgba(255, 255, 255, 0));
+
+    height: 2.5vh;
+}
