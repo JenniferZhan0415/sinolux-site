@@ -28,7 +28,7 @@ const False = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 3</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 3</Subsubtitle><br/>
                         <Subsubtitle>Between the Real & False</Subsubtitle>
                     </p>
                     <p>

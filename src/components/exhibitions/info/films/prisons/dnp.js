@@ -22,7 +22,7 @@ const Dnp = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 2</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 2</Subsubtitle><br/>
                         <Subsubtitle>Desire & Prison</Subsubtitle>
                     </p>
                     <p>

@@ -26,7 +26,7 @@ const Truth = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 6</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 6</Subsubtitle><br/>
                         <Subsubtitle>Hidden Truth</Subsubtitle>
                     </p>
                     <p>

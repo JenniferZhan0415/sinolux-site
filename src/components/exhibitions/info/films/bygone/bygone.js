@@ -27,7 +27,7 @@ const Bygone = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 5</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 5</Subsubtitle><br/>
                         <Subsubtitle>Bygone not Gone By</Subsubtitle>
                     </p>
                     <p>

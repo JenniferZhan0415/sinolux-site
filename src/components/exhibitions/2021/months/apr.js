@@ -14,7 +14,7 @@ class Apr extends Component {
                     <div className={styles.sticky}><br/>April</div>
                 </div>
                 <div className={styles.titles}>
-                    <span className="bold grey"><br/>Shorts by Young Filmmakers</span><br/>
+                    <span className={styles.event + " bold"}><br/>Shorts by Young Filmmakers</span><br/>
                     <button className={styles.title} onClick={this.setId.bind(this, 'frac')} onKeyDown={this.setId.bind(this, 'frac')}>
                         <span className="bold">Section 1</span><br/>
                         裂痕<br/>

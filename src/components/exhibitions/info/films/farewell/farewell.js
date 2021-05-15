@@ -17,6 +17,7 @@ const Farewell = () => {
     return (
         <div className={styles.container}>
             <div>
+                <br/>
                 <p className={styles.section}>
                     <Subsubtitle>A First Farewell <span className="italic">(2018)</span></Subsubtitle>
                     Directed by <a target="_blank" rel="noreferrer" href="http://www.david-oesch.com/">Lina Wang</a>
@@ -70,6 +71,7 @@ const Farewell = () => {
                 </p>
             </div>
             <div>
+                <br/>
                 <span className="bold">Gallery</span>
                 <div style={imgWrapper}>
                     <Gallery/>

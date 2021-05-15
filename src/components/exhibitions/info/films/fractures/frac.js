@@ -21,7 +21,7 @@ const Frac = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 1</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 1</Subsubtitle><br/>
                         <Subsubtitle>Fractures</Subsubtitle>
                     </p>
                     <p>

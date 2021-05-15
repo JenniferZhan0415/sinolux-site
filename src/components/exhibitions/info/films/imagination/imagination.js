@@ -27,7 +27,7 @@ const Imagination = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 4</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 4</Subsubtitle><br/>
                         <Subsubtitle>Serendipity & Imagination</Subsubtitle>
                     </p>
                     <p>

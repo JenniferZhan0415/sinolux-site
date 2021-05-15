@@ -24,7 +24,7 @@ const Childhood = () => {
                 <div>
                     <br/>
                     <p>
-                        <Subsubtitle className="grey">Section 7</Subsubtitle><br/>
+                        <Subsubtitle className="darkgrey">Section 7</Subsubtitle><br/>
                         <Subsubtitle>Childhood Violence</Subsubtitle>
                     </p>
                     <p>
