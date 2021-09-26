@@ -46,12 +46,13 @@ const Exhibition = (props) => {
                 <div style={info}>
                     <p style={title}>
                         线上展映<br/>
-                        Virtual Screening
+                        Films of Li Yu
                     </p>
                     <br/>
                     <p style={screenings} className="serif">
-                        第一次的离别 (A First Farewell, 2018)<br/>
-                        February 25th (Fri) ~ March 5th (Fri)
+                        Buddha Mountain (2010)<br/>
+                        Ever Since We Love (2015)<br/>
+                        Sep. 24th - Sep. 30th
                     </p>
                 </div>
             </BWI>
