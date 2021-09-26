@@ -17,13 +17,17 @@
 .scroll {
     /* Starting position */
     -moz-transform:translateX(0%);
-    -webkit-transform:translateX(0%);	
+    -webkit-transform:translateX(0%);
     transform:translateX(0%);
 
     /* Apply animation to this element */	
     -moz-animation: scroll-left 10s linear infinite;
     -webkit-animation: scroll-left 10s linear infinite;
     animation: scroll-left 10s linear infinite;
+}
+
+.cover:hover > .scroll {
+    animation-play-state: paused;
 }
 
 /* Move it (define the animation) */

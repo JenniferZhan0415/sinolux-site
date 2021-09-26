@@ -23,8 +23,12 @@ import Gate from "./films/2017/gate/gate"
 import Current from "./films/2017/current/current"
 import Summer from "./films/2017/summer/summer"
 import Easy from "./films/2017/easy/easy"
+import Buddha from "./films/2021/buddha/buddha"
+import Ever from "./films/2021/ever/ever"
 
 const Introductions = {
+    "ever": <Ever/>,
+    "bm": <Buddha/>,
     "farewell": <Farewell/>,
     "jebel": <Jebel/>,
     "cru": <Cru/>,

@@ -18,14 +18,14 @@ const title = {
 
 const Cover = () => {
     return (
-        <Link to="/exhibitions/" style={cover}>
+        <Link to="/exhibitions/" style={cover} className={styles.cover}>
             <span className={styles.scroll}>
-                <p style={title} className={"serif " + styles.desktop}>Virtual Screening / A First Farewell / Feb. 26th (Fri) ~ Mar. 5th (Fri) /&nbsp;</p>
-                <p style={title} className={"serif " + styles.mobile}>Virtual Screening / A First Farewell / Feb. 26th (Fri) ~ Mar. 5th (Fri) /&nbsp;</p>
+                <p style={title} className={"serif " + styles.desktop}>Films of Li Yu / Buddha Mountain (2010) / Ever Since We Love (2015) / Sep. 26 - Sep.30 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.mobile}>Films of Li Yu / Buddha Mountain (2010) / Ever Since We Love (2015) / Sep. 26 - Sep.30 /&nbsp;</p>
             </span>
             <span className={styles.scroll}>
-                <p style={title} className={"serif " + styles.desktop}>Virtual Screening / A First Farewell / Feb. 26th (Fri) ~ Mar. 5th (Fri) /&nbsp;</p>
-                <p style={title} className={"serif " + styles.mobile}>Virtual Screening / A First Farewell / Feb. 26th (Fri) ~ Mar. 5th (Fri) /&nbsp;</p>
+                <p style={title} className={"serif " + styles.desktop}>Films of Li Yu / Buddha Mountain (2010) / Ever Since We Love (2015) / Sep. 26 - Sep.30 /&nbsp;</p>
+                <p style={title} className={"serif " + styles.mobile}>Films of Li Yu / Buddha Mountain (2010) / Ever Since We Love (2015) / Sep. 26 - Sep.30 /&nbsp;</p>
             </span>
         </Link>
     )
