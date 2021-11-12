@@ -33,7 +33,7 @@ class Exhibitions extends Component {
         if (this.state.introId)
             content = Introductions[this.state.introId]
         else
-            content = Introductions["bm"]
+            content = Introductions["johnny"]
 
         return (
             <div className={styles.container + " text-normal"}>

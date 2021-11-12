@@ -25,8 +25,14 @@ import Summer from "./films/2017/summer/summer"
 import Easy from "./films/2017/easy/easy"
 import Buddha from "./films/2021/buddha/buddha"
 import Ever from "./films/2021/ever/ever"
+import Johnny from "./films/2021/johnny/johnny"
+import Receptionist from "./films/2021/receptionist/receptionist"
+import Somewhere from "./films/2021/somewhere/somewhere"
 
 const Introductions = {
+    "somewhere": <Somewhere/>,
+    "recep": <Receptionist/>,
+    "johnny": <Johnny/>,
     "ever": <Ever/>,
     "bm": <Buddha/>,
     "farewell": <Farewell/>,
