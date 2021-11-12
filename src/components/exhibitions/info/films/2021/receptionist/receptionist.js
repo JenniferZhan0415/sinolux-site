@@ -20,6 +20,10 @@ const Receptionist = () => {
                     Y: 2017<br/>
                     D: <a target="_blank" rel="noreferrer" href="https://www.imdb.com/name/nm4432273/" className={styles.link}>Jenny Lu</a>
                 </p>
+                <p>
+                    <span className="bold">Partnership</span><br/>
+                    <a target="_blank" rel="noreferrer" href="https://www.tfai.org.tw/" className={styles.link}>Taiwan Film and Audiovisual Institute</a>
+                </p>
                 <p className={styles.section}>
                     <span className="bold">Watch / Ticket</span><br/>
                     <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSd2D-uV6RW5GFwQVEiCe8JWJwNZgRXJJvCBrszRY-KvdZE4wg/viewform" className={styles.link}>&rarr; Google Form</a><br/>

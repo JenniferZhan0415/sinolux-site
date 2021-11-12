@@ -14,6 +14,22 @@
     }
 }
 
+.imgWrapper {
+    width: 120%;
+    
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    
+    border: 2px solid black;
+    transform: translate(-50%, -50%) rotate(90deg);
+
+    @media(min-width: 900px) {
+        width: 60vw;
+        transform: translate(-50%, -50%);
+    }
+}
+
 .scroll {
     /* Starting position */
     -moz-transform:translateX(0%);
@@ -21,9 +37,9 @@
     transform:translateX(0%);
 
     /* Apply animation to this element */	
-    -moz-animation: scroll-left 10s linear infinite;
-    -webkit-animation: scroll-left 10s linear infinite;
-    animation: scroll-left 10s linear infinite;
+    -moz-animation: scroll-left 20s linear infinite;
+    -webkit-animation: scroll-left 20s linear infinite;
+    animation: scroll-left 20s linear infinite;
 }
 
 .cover:hover > .scroll {

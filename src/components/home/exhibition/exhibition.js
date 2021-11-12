@@ -45,14 +45,15 @@ const Exhibition = (props) => {
                 </Subtitle>
                 <div style={info}>
                     <p style={title}>
-                        线上展映<br/>
-                        Films of Li Yu
+                        回溯与新生<br/>
+                        Retrospect + Rebirth
                     </p>
                     <br/>
                     <p style={screenings} className="serif">
-                        Buddha Mountain (2010)<br/>
-                        Ever Since We Love (2015)<br/>
-                        Sep. 24th - Sep. 30th
+                        Missing Johnny (2017)<br/>
+                        The Receptionist (2017)<br/>
+                        Somewhere I Have Never Travelled (2009)<br/>
+                        Nov. 19 – 28
                     </p>
                 </div>
             </BWI>

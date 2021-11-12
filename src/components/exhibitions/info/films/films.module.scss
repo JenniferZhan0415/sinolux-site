@@ -36,9 +36,9 @@
 }
 
 .collection {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20vh repeat(4, 45vh);
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 20vh repeat(4, 45vh);
 
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -60,9 +60,9 @@
 }
 
 .collection5 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20vh repeat(5, 45vh);
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 20vh repeat(5, 45vh);
 
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -84,9 +84,9 @@
 }
 
 .collection6 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20vh repeat(6, 45vh);
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 20vh repeat(6, 45vh);
 
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
