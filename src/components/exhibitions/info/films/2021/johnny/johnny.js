@@ -8,7 +8,7 @@ import styles from "../../films.module.scss"
 const imgWrapper = {
     marginTop: "1em",
     marginRight: "30%",
-    width: "15vw",
+    width: "18vw",
     border: "2px solid black",
     overflow: "hidden"
 }
