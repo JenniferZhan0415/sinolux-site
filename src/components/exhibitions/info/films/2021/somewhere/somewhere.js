@@ -25,8 +25,12 @@ const Somewhere = () => {
                     <a target="_blank" rel="noreferrer" href="https://www.tfai.org.tw/" className={styles.link}>Taiwan Film and Audiovisual Institute</a>
                 </p>
                 <p className={styles.section}>
-                    <span className="bold">Watch / Ticket</span><br/>
+                    <span className="bold">Ticket</span><br/>
                     <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSd2D-uV6RW5GFwQVEiCe8JWJwNZgRXJJvCBrszRY-KvdZE4wg/viewform" className={styles.link}>&rarr; Google Form</a><br/>
+                </p>
+                <p className={styles.section}>
+                    <span className="bold">Watch</span><br/>
+                    <a target="_blank" rel="noreferrer" href="https://player.tfai.org.tw/zh-TW/watchnow" className={styles.link}>&rarr; TFAI Player</a><br/>
                 </p>
                 <p className={styles.section}>
                     <span className="bold">Details</span><br/>

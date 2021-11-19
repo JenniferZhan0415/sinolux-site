@@ -6,7 +6,7 @@ const Gallery = () => {
     // query background image
     const data = useStaticQuery(graphql`
         query {
-            src: file(relativePath: { eq: "2021/rebirth.jpeg" }) {
+            src: file(relativePath: { eq: "2021/rebirth-v2.jpg" }) {
                 childImageSharp {
                     fluid(quality: 90, maxWidth: 1400) {
                         ...GatsbyImageSharpFluid_noBase64

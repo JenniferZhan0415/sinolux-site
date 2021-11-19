@@ -20,7 +20,7 @@ const title = {
 const Cover = () => {
     return (
         <>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd2D-uV6RW5GFwQVEiCe8JWJwNZgRXJJvCBrszRY-KvdZE4wg/viewform" style={cover} className={styles.cover}>
+            <Link to="https://player.tfai.org.tw/zh-TW/watchnow" style={cover} className={styles.cover}>
                 <span className={styles.scroll}>
                     <p style={title} className={"serif " + styles.desktop}>Retrospect + Rebirth / Buy Tickets / 立即购票 / Missing Johnny (2017) / The Receptionist (2017) / Somewhere I Have Never Travelled (2009) / Nov. 19 – 28/&nbsp;</p>
                     <p style={title} className={"serif " + styles.mobile}>Retrospect + Rebirth / Buy Tickets / 立即购票 / Missing Johnny (2017) / The Receptionist (2017) / Somewhere I Have Never Travelled (2009) / Nov. 19 – 28/&nbsp;</p>
@@ -30,7 +30,7 @@ const Cover = () => {
                     <p style={title} className={"serif " + styles.mobile}>Retrospect + Rebirth / Buy Tickets/ 立即购票 / Missing Johnny (2017) / The Receptionist (2017) / Somewhere I Have Never Travelled (2009) / Nov. 19 – 28/&nbsp;</p>
                 </span>
             </Link>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd2D-uV6RW5GFwQVEiCe8JWJwNZgRXJJvCBrszRY-KvdZE4wg/viewform">
+            <Link to="https://player.tfai.org.tw/zh-TW/watchnow">
                 <div className={styles.imgWrapper}>
                     {<Gallery/>}
                 </div>
