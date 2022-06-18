@@ -70,7 +70,14 @@ const Content = () => {
                         </Row>
                         <Row>
                             <p>
-                                <span className="blue">时雨</span><br/>
+                                <span className="blue">Joyce Qiao</span><br/>
+                                赞助 / 合作咨询<br/>
+                                Sponsorship / Community Consultant
+                            </p>
+                        </Row>
+                        <Row>
+                            <p>
+                                <span className="green">时雨</span><br/>
                                 <span className="italic">Winnie</span><br/>
                                 运营 / 撰稿<br/>
                                 Operating Manager / Journalist
@@ -78,7 +85,7 @@ const Content = () => {
                         </Row>
                         <Row>
                             <p>
-                                <span className="green">雅淳</span><br/>
+                                <span className="red">雅淳</span><br/>
                                 <span className="italic">Chuck</span><br/>
                                 运营 / 策划<br/>
                                 Event Coordinator
@@ -86,21 +93,21 @@ const Content = () => {
                         </Row>
                         <Row>
                             <p>
-                                <span className="red">Sandy Long</span><br/>
+                                <span className="yellow">Sandy Long</span><br/>
                                 运营 / 记者<br/>
                                 Operating Manager / Journalist
                             </p>
                         </Row>
                         <Row>
                             <p>
-                                <span className="yellow">Erin Zhou</span><br/>
+                                <span className="blue">Erin Zhou</span><br/>
                                 社团联系<br/>
                                 Marketing & Communication
                             </p>
                         </Row>
                         <Row>
                             <p>
-                                <span className="blue">易桥</span><br/>
+                                <span className="green">易桥</span><br/>
                                 <span className="italic">Yi Qiao</span><br/>
                                 财务顾问<br/>
                                 Financial Consultant
@@ -108,7 +115,7 @@ const Content = () => {
                         </Row>
                         <Row>
                             <p>
-                                <span className="green">赵四</span><br/>
+                                <span className="red">赵四</span><br/>
                                 <span className="italic">Nicholas Zhao</span><br/>
                                 技术支持<br/>
                                 Web Design<br/>
