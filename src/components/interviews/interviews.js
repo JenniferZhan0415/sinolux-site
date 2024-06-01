@@ -7,7 +7,7 @@ import Row from "../layouts/row"
 
 import Articles from "./articles/table"
 
-import styles from "./interviews.module.scss"
+import * as styles from "./interviews.module.scss"
 
 
 const Interviews = () => {

@@ -6,7 +6,7 @@ import EyeIm from "../gallery/eye"
 import KusbekIm from "../gallery/kusbek"
 import FlagIm from "../gallery/flag"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 import CatIm from "../gallery/cat"
 
 const imgWrapper = {

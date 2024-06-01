@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 
-import styles from "./exhibitions.module.scss"
+import * as styles from "./exhibitions.module.scss"
 
 import Year2021 from "./2021/year"
 import Year2020 from "./2020/year"

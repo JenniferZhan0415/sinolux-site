@@ -8,7 +8,7 @@ import Footer from "../footer/footer"
 import Cover from "../layouts/cover"
 import {covers} from "./articals/covers"
 
-import styles from "./events.module.scss"
+import * as styles from "./events.module.scss"
 
 
 const Events = () => {

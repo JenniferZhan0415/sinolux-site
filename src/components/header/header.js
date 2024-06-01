@@ -4,7 +4,7 @@ import {Link} from "gatsby"
 
 import Title from "../layouts/title"
 
-import styles from "./header.module.scss"
+import * as styles from "./header.module.scss"
 
 const Header = ({ siteTitle }) => (
 	<header className={styles.header}>

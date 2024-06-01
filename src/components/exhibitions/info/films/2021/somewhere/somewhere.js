@@ -1,6 +1,6 @@
 import React from "react"
 import Gallery from "./gallery"
-import styles from "../../films.module.scss"
+import * as styles from "../../films.module.scss"
 
 const imgWrapper = {
     marginTop: "1em",

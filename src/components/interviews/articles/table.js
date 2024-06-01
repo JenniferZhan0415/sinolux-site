@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./table.module.scss"
+import * as styles from "./table.module.scss"
 
 import Article200908 from "./2020/09/08/article"
 import Article200827 from "./2020/08/27/article"

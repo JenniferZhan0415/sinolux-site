@@ -7,8 +7,8 @@ import {Subsubtitle} from "../../../layouts/title"
 // import Cru2 from "./gallery/cru2"
 // import Cru3 from "./gallery/cru3"
 
-// import styles from "../exhibitions.module.scss"
-import styles from "./films.module.scss"
+// import * as styles from "../exhibitions.module.scss"
+import * as styles from "./films.module.scss"
 
 const Cru = () => {
     return (

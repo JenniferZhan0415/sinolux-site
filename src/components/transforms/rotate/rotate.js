@@ -1,7 +1,7 @@
 import React from "react"
 
 import Logo2 from "../../images/logo2"
-import styles from "./rotate.module.scss"
+import * as styles from "./rotate.module.scss"
 
 const Rotate = (props) => {
     const polygon = {

@@ -2,7 +2,7 @@ import React from "react"
 
 import {Subsubtitle} from "../../../../layouts/title"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 import BaseIm from "../gallery/base"
 import GoatIm from "../gallery/goat"
 import MineIm from "../gallery/mine"

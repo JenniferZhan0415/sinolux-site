@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 
-import styles from "../../exhibitions.module.scss"
+import * as styles from "../../exhibitions.module.scss"
 
 class Dec extends Component {
     setId(id) {

@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from "gatsby"
 import Gallery from "./gallery"
 
-import styles from "./cover.module.scss"
+import * as styles from "./cover.module.scss"
 
 const cover = {
     position: "absolute",

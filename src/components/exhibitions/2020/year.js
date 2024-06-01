@@ -2,7 +2,7 @@ import React from "react"
 
 import Nov from "./months/nov"
 import Dec from "./months/dec"
-import styles from "../exhibitions.module.scss"
+import * as styles from "../exhibitions.module.scss"
 
 const Year2020 = (props) => {
     return (

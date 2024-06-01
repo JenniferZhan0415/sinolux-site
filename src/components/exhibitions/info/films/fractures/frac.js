@@ -7,7 +7,7 @@ import HoldIm from "../gallery/hold"
 import KindIm from "../gallery/kind"
 import MintIm from "../gallery/mint"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 
 const imgWrapper = {
     width: "12vw",

@@ -5,7 +5,7 @@ import Feb from "./months/feb"
 import Apr from "./months/apr"
 import Sep from "./months/sep"
 import Nov from "./months/nov"
-import styles from "../exhibitions.module.scss"
+import * as styles from "../exhibitions.module.scss"
 
 const Year2021 = (props) => {
     return (

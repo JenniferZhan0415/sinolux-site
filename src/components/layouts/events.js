@@ -2,7 +2,7 @@ import React from "react"
 
 import {Subtitle, PageTitle} from "./title"
 
-import styles from "./events.scss"
+import * as styles from "./events.scss"
 
 const EventTemplate = (props) => {
     return (

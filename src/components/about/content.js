@@ -4,7 +4,7 @@ import Section from "../layouts/section"
 import Row from "../layouts/row"
 import {Subtitle} from "../layouts/title"
 
-import styles from "./content.module.scss"
+import * as styles from "./content.module.scss"
 
 const about = [
     <p>

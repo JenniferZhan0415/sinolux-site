@@ -8,7 +8,7 @@ import Content from "./content"
 import ScrollIndicator from "../transforms/scroll"
 import Rotate from "../transforms/rotate/rotate"
 
-// import styles from "./about.module.scss"
+// import * as styles from "./about.module.scss"
 
 const About = () => {
     return (

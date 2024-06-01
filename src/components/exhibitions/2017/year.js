@@ -1,7 +1,7 @@
 import React from "react"
 
 import Oct from "./months/oct"
-import styles from "../exhibitions.module.scss"
+import * as styles from "../exhibitions.module.scss"
 
 const Year2017 = (props) => {
     return (

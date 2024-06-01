@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 
 import Logo2 from "../images/logo2"
-import styles from "./background.module.scss"
+import * as styles from "./background.module.scss"
 
 const polygonStyle = {
     position: "fixed",

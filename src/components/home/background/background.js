@@ -3,7 +3,7 @@ import React from "react"
 import BackgroundImg from "./brackgroundImage"
 import BackgroundMobile from "./backgroundMobile"
 
-import styles from "./background.module.scss"
+import * as styles from "./background.module.scss"
 
 const Background = () => {
     const polygon = {

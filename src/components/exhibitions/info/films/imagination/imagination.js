@@ -8,7 +8,7 @@ import JenIm from "../gallery/jenny"
 import EggIm from "../gallery/egg"
 import CommonIm from "../gallery/common"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 
 const imgWrapper = {
     width: "12vw",

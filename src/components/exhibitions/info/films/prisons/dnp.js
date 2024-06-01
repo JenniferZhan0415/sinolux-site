@@ -8,7 +8,7 @@ import TreeIm from "../gallery/tree"
 import BubbleIm from "../gallery/bubble"
 import ConfIm from "../gallery/conf"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 
 const imgWrapper = {
     width: "12vw",

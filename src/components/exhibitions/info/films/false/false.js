@@ -9,7 +9,7 @@ import FutureIm from "../gallery/future"
 import DayouIm from "../gallery/dayou"
 import IslandIm from "../gallery/island"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 
 const imgWrapper = {
     width: "12vw",

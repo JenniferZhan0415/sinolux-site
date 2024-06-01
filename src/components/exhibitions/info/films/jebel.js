@@ -4,8 +4,8 @@ import {Subsubtitle} from "../../../layouts/title"
 
 import JebelIm from "./gallery/jebel"
 
-// import styles from "../exhibitions.module.scss"
-import styles from "./films.module.scss"
+// import * as styles from "../exhibitions.module.scss"
+import * as styles from "./films.module.scss"
 
 const Jebel = () => {
     return (

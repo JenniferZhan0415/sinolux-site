@@ -8,7 +8,7 @@ import IllIm from "../gallery/ill"
 import TaipeiIm from "../gallery/taipei"
 import TyphoonIm from "../gallery/typhoon"
 
-import styles from "../films.module.scss"
+import * as styles from "../films.module.scss"
 
 const imgWrapper = {
     width: "12vw",

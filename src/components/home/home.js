@@ -11,7 +11,7 @@ import Ticket from "./ticket/ticket"
 import Footer from "../footer/footer"
 import Cover from "./cover/cover"
 
-import styles from "./home.module.scss"
+import * as styles from "./home.module.scss"
 
 class Home extends Component {
     constructor(props) {
