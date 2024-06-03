@@ -6,10 +6,10 @@ import CoverImg from "./cover"
 const Article200215 = () => {
     return (
         <p>
-            <Cover external="https://mp.weixin.qq.com/s/_x7amHRdyyoTBZDcD3fnUg">
+            <Cover external="https://movie.douban.com/review/14978695/">
                 <CoverImg/>
-                {"亲密关系 - 2020 情人节电影特辑"}
-                {"2020/03/04"}
+                {"用电影为当代社会做一次《核磁共振》｜克里斯蒂安·蒙吉新片R.M.N."}
+                {"2022/09/04"}
             </Cover>
         </p>
     )

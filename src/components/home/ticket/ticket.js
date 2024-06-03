@@ -22,7 +22,7 @@ const Ticket = (props) => {
         <div style={entryStyle}>
             <BWI setDefault={props.setDefault} unsetDefault={props.unsetDefault}>
                 <Subtitle>
-                    <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSd2D-uV6RW5GFwQVEiCe8JWJwNZgRXJJvCBrszRY-KvdZE4wg/viewform">TICKETS</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.tiff.net">TICKETS</a>
                 </Subtitle>
                 <p style={title} className="serif">(购票)</p>
             </BWI>

@@ -1,15 +1,13 @@
 import React from "react"
 
-import Cover190603 from "./2019/0603/cover"
-import Cover190418 from "./2019/0418/cover"
-import Cover190323 from "./2019/0323/cover"
-import Cover190308 from "./2019/0308/cover"
-import Cover190718 from "./2018/0718/cover"
+import Cover20160803 from "./2016/0803/cover"
+import Cover20170907 from "./2017/0907/cover"
+import Cover20160904 from "./2016/0904/cover"
+import Cover20160908 from "./2016/0908/cover"
 
 export const covers = {
-    "190603": <Cover190603/>,
-    "190418": <Cover190418/>,
-    "190323": <Cover190323/>,
-    "190308": <Cover190308/>,
-    "180718": <Cover190718/>
+    "20160803": <Cover20160803/>,
+    "20170907": <Cover20170907/>,
+    "20160904": <Cover20160904/>,
+    "20160908": <Cover20160908/>
 }

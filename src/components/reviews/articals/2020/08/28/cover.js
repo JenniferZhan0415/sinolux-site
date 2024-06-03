@@ -6,7 +6,7 @@ const CoverImg = (props) => {
     // query background image
     const data = useStaticQuery(graphql`
         query {
-            src: file(relativePath: { eq: "interviews/2020/new-mutants.jpg" }) {
+            src: file(relativePath: { eq: "reviews/2020/Evil.png" }) {
                 childImageSharp {
                     fluid(quality: 90, maxWidth: 1400) {
                         ...GatsbyImageSharpFluid

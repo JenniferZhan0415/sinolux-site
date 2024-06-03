@@ -5,13 +5,11 @@ import CoverImg from "./cover"
 
 const Article200731 = () => {
     return (
-        <p>
-            <Cover external="https://mp.weixin.qq.com/s/xc3jrnbjB2ZBp9w1qUfcwA">
-                <CoverImg/>
-                {"TIFF 2020 片单详解"}
-                {"2020/08/21"}
-            </Cover>
-        </p>
+        <Cover external="https://mp.weixin.qq.com/s/Rkh-Y_saIY3s7fPRUyilpA">
+            <CoverImg/>
+            {"TIFF专访｜《寄生虫》主创：奉俊昊&宋康昊&崔宇植"}
+            {"2019/09/08"}
+        </Cover>
     )
 }
 

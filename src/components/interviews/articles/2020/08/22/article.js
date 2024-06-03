@@ -5,13 +5,11 @@ import CoverImg from "./cover"
 
 const Article200821 = () => {
     return (
-        <p>
-            <Cover external="https://mp.weixin.qq.com/s/vz8HMlDFS63KiUUmZameaw">
-                <CoverImg/>
-                {"9 月影历"}
-                {"2020/08/21"}
-            </Cover>
-        </p>
+        <Cover external="https://mp.weixin.qq.com/s/_aMjjyswq8uXGQC0oqDKgw">
+            <CoverImg/>
+            {"TIFF专访｜《冈仁波齐》导演张扬：做与自己相关的，单纯的事"}
+            {"2015/10/15"}
+        </Cover>
     )
 }
 

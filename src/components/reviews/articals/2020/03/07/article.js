@@ -6,10 +6,10 @@ import CoverImg from "./cover"
 const Article200307 = () => {
     return (
         <p>
-            <Cover external="https://mp.weixin.qq.com/s/QakqGKoZl6OYTKkTQlHzgQ">
+            <Cover external="https://movie.douban.com/review/15536526/">
                 <CoverImg/>
-                {"2020 情人节最佳电影"}
-                {"2020/03/04"}
+                {"《坠楼死亡的剖析》「声音、剧作和人物」的三重剖析"}
+                {"2023/09/04"}
             </Cover>
         </p>
     )

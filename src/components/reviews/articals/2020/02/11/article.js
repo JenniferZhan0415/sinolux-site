@@ -6,10 +6,10 @@ import CoverImg from "./cover"
 const Article200211 = () => {
     return (
         <p>
-            <Cover external="https://mp.weixin.qq.com/s/b5O8WoYNbxG3x0wPiJEgyw">
+            <Cover external="https://movie.douban.com/review/14937103/">
                 <CoverImg/>
-                {"为什么我们都爱奉俊昊"}
-                {"2020/02/11"}
+                {"恐惧吞噬灵魂｜死亡与孤独哪个更可怕？《伊尼舍林的报丧女妖》的悲剧内核"}
+                {"2022/09/11"}
             </Cover>
         </p>
     )

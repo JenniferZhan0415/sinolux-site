@@ -60,7 +60,7 @@ class Home extends Component {
                 </Footer>
     
                 <div className={styles.footer}>
-                    <span className={styles.footerSpan + " subtitle"}>© <Link to="/about-us">SINOLUX FILM<br/></Link>, 2021</span>
+                    <span className={styles.footerSpan + " subtitle"}>© <Link to="/about-us">SINOLUX FILM<br/></Link>, 2024</span>
                 </div>
             </div>
         )

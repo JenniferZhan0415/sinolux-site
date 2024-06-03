@@ -5,13 +5,11 @@ import CoverImg from "./cover"
 
 const Article200826 = () => {
     return (
-        <p>
-            <Cover external="https://mp.weixin.qq.com/s/L5bhxHnHEXUAebvgEvmISQ">
-                <CoverImg/>
-                {"关于爱情、婚姻、买房，这部电影说了点真话"}
-                {"2020/08/26"}
-            </Cover>
-        </p>
+        <Cover external="https://mp.weixin.qq.com/s/U35CYxiNZa4okEHxJzqIdg">
+            <CoverImg/>
+            {"戛纳专访｜导演邱阳：重拾消失的电影语言，中国第一个短片金棕榈的诞生"}
+            {"2017/06/01"}
+        </Cover>
     )
 }
 

@@ -14,6 +14,10 @@ const Interviews = () => {
     return (
         <Section>
             <Nav className={styles.nav}>
+                <p><a href="#2024" className="link-en">2024</a></p>
+                <p><a href="#2023" className="link-en">2023</a></p>
+                <p><a href="#2022" className="link-en">2022</a></p>
+                <p><a href="#2021" className="link-en">2021</a></p>
                 <p><a href="#2020" className="link-en">2020</a></p>
                 <p><a href="#2019" className="link-en">2019</a></p>
                 <p><a href="#2018" className="link-en">2018</a></p>

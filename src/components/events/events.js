@@ -26,41 +26,26 @@ const Events = () => {
             </Nav>
 
             <div className={styles.rows}>
-                <p>
-                    <Cover className={styles.cover0} external="https://mp.weixin.qq.com/s/kp-iDjcJ7EhXkv6OHrl_rQ">
-                        {covers["190603"]}
-                        {"TIFF Picture Palace"}
-                        {"2019/06/03"}
-                    </Cover>
-                </p>
-                <p>
-                    <Cover className={styles.cover1} external="https://mp.weixin.qq.com/s/I3RhrqFQEWa7PYRJD_rgWg">
-                        {covers["190418"]}
-                        <span>《地球最后的夜晚》首映之夜</span>
-                        {"2019/04/18"}
-                    </Cover>
-                </p>
-                <p>
-                    <Cover className={styles.cover2} external="https://mp.weixin.qq.com/s/_SsCEOUovCOtzIJknMs3CQ">
-                        {covers["190323"]}
-                        {"AGO 《火车进站》&《工厂大门》"}
-                        {"2019/03/23"}
-                    </Cover>
-                </p>
-                <p>
-                    <Cover className={styles.cover4} external="https://mp.weixin.qq.com/s/rZXH51Zje7uByxy9zF4BeQ">
-                        {covers["180718"]}
-                        {"《豹》/ 维斯康蒂回顾展"}
-                        {"2018/07/18"}
-                    </Cover>
-                </p>
-                <p>
-                    <Cover className={styles.cover3} external="https://mp.weixin.qq.com/s/rZXH51Zje7uByxy9zF4BeQ">
-                        {covers["190308"]}
-                        {"《大象席地而坐》新片放映"}
-                        {"2019/03/08"}
-                    </Cover>
-                </p>
+                <Cover className={styles.cover0} external="https://mp.weixin.qq.com/s/mKRrG7EA6A1ZnRHOzI1lmg">
+                    {covers["20160803"]}
+                    {"如何在一票难求的多伦多国际电影节，求得一票？！"}
+                    {"2016/08/03"}
+                </Cover>
+                <Cover className={styles.cover1} external="https://mp.weixin.qq.com/s/A9bZgcvI1nPCpJapeUc2jw">
+                    {covers["20170907"]}
+                    {"第42届TIFF：奥斯卡前还有那些新片"}
+                    {"2017/09/07"}
+                </Cover>
+                <Cover className={styles.cover2} external="https://mp.weixin.qq.com/s/UF-gb4UWZxMUMISxrbekHQ">
+                    {covers["20160904"]}
+                    {"第41届TIFF：午夜疯狂单元详解"}
+                    {"2016/09/04"}
+                </Cover>
+                <Cover className={styles.cover3} external="https://mp.weixin.qq.com/s/_eUFx2fMl52nr2uJNJW_0Q">
+                    {covers["20160908"]}
+                    {"第41届TIFF特别展映单元首批片单详解"}
+                    {"2016/09/08"}
+                </Cover>
             </div>
 
             {/* <Background/> */}
